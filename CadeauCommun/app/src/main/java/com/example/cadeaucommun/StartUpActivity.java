@@ -17,6 +17,6 @@ public class StartUpActivity extends AppCompatActivity {
     public void registerClick(View view)
     {
         Intent reg_intent = new Intent(this, RegisterActivity.class);
-        finish();
+        startActivity(reg_intent);
     }
 }
