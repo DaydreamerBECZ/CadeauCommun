@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">CadeauCommun</string>
+    <string name="mainTitleText">M A G I F T</string>
+    <string name="subtitleText">Making event gifting EASY</string>
+    <string name="loginInvite">Already a MAGIFT user ? Login !</string>
+    <string name="loginButtonText">LOGIN</string>
+
+    <string name="registerInvite">New to MAGIFT ? Join us !</string>
+    <string name="registerButtonText">Register</string>
+    <string name="registerTitleText">R E G I S T E R</string>
+    <string name="usernameHint">u s e r n a m e</string>
+    <string name="eMailHint">e - m a i l</string>
+    <string name="passwordHint">p a s s w o r d</string>
+
 </resources>
