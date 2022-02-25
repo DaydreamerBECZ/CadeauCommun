@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
         "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_participant_selection.xml.flat",
+        "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\activity_participant_selection.xml"
     },
     {
         "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",

@@ -11,5 +11,6 @@
     <string name="usernameHint">u s e r n a m e</string>
     <string name="eMailHint">e - m a i l</string>
     <string name="passwordHint">p a s s w o r d</string>
-
+    <string name="participantChoiceTextbox">Choose your participant(s):</string>
+    <string name="apply">APPLY</string>
 </resources>
