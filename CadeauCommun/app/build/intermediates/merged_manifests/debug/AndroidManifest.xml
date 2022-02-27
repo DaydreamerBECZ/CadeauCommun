@@ -23,7 +23,7 @@
             android:name="com.example.cadeaucommun.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.cadeaucommun.StartUpActivity"
+            android:name="com.example.cadeaucommun.participantSelectionActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

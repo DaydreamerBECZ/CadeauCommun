@@ -17,7 +17,8 @@ public class Participant extends User{
     public String toString() {
         return "Participant{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", name='" + String.valueOf(this.name) + '\'' +
                 '}';
     }
+
 }

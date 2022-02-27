@@ -13,6 +13,7 @@ import java.util.List;
 
 public class participantSelectionActivity extends AppCompatActivity {
     List<Participant> participants = new ArrayList<>();
+    List<String> participants_name = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +27,9 @@ public class participantSelectionActivity extends AppCompatActivity {
         Participant p1 = new Participant("Zach");
         participants.add(p1);
 
-        ListAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, participants);
+        participants.stream().map(x -> participants_name.add(x.getName()));
+
+        ListAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, participants_name);
         listView.setAdapter(adapter);
     }
 }

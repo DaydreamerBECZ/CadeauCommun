@@ -9,7 +9,6 @@ color teal_200
 color teal_700
 color title
 color white
-dimen fab_margin
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id LoginButton
@@ -19,7 +18,6 @@ id button3
 id editTextTextEmailAddress
 id editTextTextPassword
 id editTextTextPersonName
-id nav_graph
 id textView
 id textView11
 id textView2
@@ -34,7 +32,6 @@ layout activity_register
 layout startup_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
-navigation nav_graph
 string app_name
 string apply
 string eMailHint
