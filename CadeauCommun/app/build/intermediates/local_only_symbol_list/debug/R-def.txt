@@ -15,7 +15,7 @@ drawable ic_launcher_foreground
 id LoginButton
 id RegButton
 id allParticipantsListView
-id button3
+id applyBtn
 id editTextTextEmailAddress
 id editTextTextPassword
 id editTextTextPersonName
@@ -29,6 +29,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+layout activity_gifting
 layout activity_participant_selection
 layout activity_register
 layout startup_activity

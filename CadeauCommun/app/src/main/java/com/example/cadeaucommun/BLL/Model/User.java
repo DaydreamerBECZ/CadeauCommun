@@ -4,11 +4,12 @@ public abstract class User {
     private static int auto_id = 0;
     private int id;
     private String img;
-    private String name;
+    private String fName, lName;
 
-    public User(String name, String img) {
+    public User(String fName, String lName, String img) {
         this.id=auto_id;
-        this.name = name;
+        this.fName = fName;
+        this.lName = lName;
         this.img = img;
         auto_id++;
     }
@@ -17,10 +18,7 @@ public abstract class User {
         return this.id;
     }
     public String getName() {
-        return this.name;
-    }
-    public void setName(String name) {
-        this.name = name;
+        return this.fName + " " + this.lName;
     }
     public String getImg() {
         return img;

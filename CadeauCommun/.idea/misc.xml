@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mark/Desktop/School/Hiv2022/Mobile/Projet-A/CadeauCommun/CadeauCommun/app/src/main/res/layout/activity_gifting.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Mark/Desktop/School/Hiv2022/Mobile/Projet-A/CadeauCommun/CadeauCommun/app/src/main/res/layout/activity_main.xml" value="0.33967391304347827" />
         <entry key="..\:/Users/Mark/Desktop/School/Hiv2022/Mobile/Projet-A/CadeauCommun/CadeauCommun/app/src/main/res/layout/activity_participant_selection.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mark/Desktop/School/Hiv2022/Mobile/Projet-A/CadeauCommun/CadeauCommun/app/src/main/res/layout/activity_register.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Mark/Desktop/School/Hiv2022/Mobile/Projet-A/CadeauCommun/CadeauCommun/app/src/main/res/layout/fragment_gift_creation.xml" value="0.25" />
         <entry key="..\:/Users/Mark/Desktop/School/Hiv2022/Mobile/Projet-A/CadeauCommun/CadeauCommun/app/src/main/res/layout/startup_activity.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/zacha/IdeaProjects/Repo/CadeauCommun/CadeauCommun/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/zacha/IdeaProjects/Repo/CadeauCommun/CadeauCommun/app/src/main/res/layout/activity_register.xml" value="0.2" />

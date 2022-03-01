@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.CadeauCommun" >
         <activity
+            android:name="com.example.cadeaucommun.giftingActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.cadeaucommun.RegisterActivity"
             android:exported="false" />
         <activity

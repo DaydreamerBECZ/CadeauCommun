@@ -7,11 +7,12 @@
     tools:context=".participantSelectionActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/applyBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/subtitle"
+        android:onClick="applyParticipants"
         android:text="@string/apply"
         app:layout_constraintEnd_toEndOf="@+id/allParticipantsListView"
         app:layout_constraintTop_toBottomOf="@+id/allParticipantsListView"

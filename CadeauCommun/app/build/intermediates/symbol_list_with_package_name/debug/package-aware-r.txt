@@ -2592,6 +2592,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id applyBtn
 id arc
 id asConfigured
 id async
@@ -2610,7 +2611,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3087,6 +3087,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_gifting
 layout activity_participant_selection
 layout activity_register
 layout custom_dialog

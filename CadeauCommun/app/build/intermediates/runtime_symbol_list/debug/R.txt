@@ -2591,6 +2591,7 @@ int id animateToEnd 0x7f08004f
 int id animateToStart 0x7f080050
 int id antiClockwise 0x7f080051
 int id anticipate 0x7f080052
+int id applyBtn 0x7f0801ef
 int id arc 0x7f080053
 int id asConfigured 0x7f080054
 int id async 0x7f080055
@@ -2609,7 +2610,6 @@ int id bounce 0x7f080061
 int id bounceBoth 0x7f080062
 int id bounceEnd 0x7f080063
 int id bounceStart 0x7f080064
-int id button3 0x7f080065
 int id buttonPanel 0x7f080066
 int id cache_measures 0x7f080067
 int id callMeasure 0x7f080068
@@ -3086,6 +3086,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_gifting 0x7f0b0076
 int layout activity_participant_selection 0x7f0b001c
 int layout activity_register 0x7f0b001d
 int layout custom_dialog 0x7f0b001e
