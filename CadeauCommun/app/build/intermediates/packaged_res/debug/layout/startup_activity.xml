@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#8AC89B"
+    tools:context=".StartUpActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="359dp"
+        android:layout_height="79dp"
+        android:background="@color/title"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/mainTitleText"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginInvite"
+        app:layout_constraintBottom_toBottomOf="@+id/registerSubmit"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.768" />
+
+    <Button
+        android:id="@+id/registerSubmit"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="192dp"
+        android:backgroundTint="@color/subtitle"
+        android:onClick="loginClick"
+        android:text="@string/loginButtonText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.006"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/registerInvite"
+        app:layout_constraintBottom_toBottomOf="@+id/RegButton"
+        app:layout_constraintEnd_toEndOf="@+id/registerSubmit"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/registerSubmit"
+        app:layout_constraintTop_toBottomOf="@+id/registerSubmit"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <Button
+        android:id="@+id/RegButton"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="@color/subtitle"
+        android:onClick="registerClick"
+        android:text="@string/registerButtonText"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/registerSubmit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/registerSubmit"
+        app:layout_constraintTop_toBottomOf="@+id/registerSubmit"
+        app:layout_constraintVertical_bias="0.01"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="285dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/subtitleText"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
