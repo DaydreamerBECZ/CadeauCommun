@@ -87,6 +87,4 @@ public class participantSelectionActivity extends AppCompatActivity {
         intent.putExtra("Participants Selected", selected);
         startActivity(intent);
     }
-
-
 }
