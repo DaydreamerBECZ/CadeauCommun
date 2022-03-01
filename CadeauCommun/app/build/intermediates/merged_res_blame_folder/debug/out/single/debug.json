@@ -56,6 +56,10 @@
         "source": "C:\\Users\\zacha\\IdeaProjects\\Repo\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\activity_participant_selection.xml"
     },
     {
+        "merged": "C:\\Users\\zacha\\IdeaProjects\\Repo\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\zacha\\IdeaProjects\\Repo\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\zacha\\IdeaProjects\\Repo\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\zacha\\IdeaProjects\\Repo\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },

@@ -19,4 +19,10 @@ public class StartUpActivity extends AppCompatActivity {
         Intent reg_intent = new Intent(this, RegisterActivity.class);
         startActivity(reg_intent);
     }
+
+    public void loginClick(View view)
+    {
+        Intent log_intent = new Intent(this, loginActivity.class);
+        startActivity(log_intent);
+    }
 }
