@@ -40,7 +40,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="U S E R N A M E"
         app:layout_constraintBottom_toTopOf="@+id/userLog"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintHorizontal_bias="0.497"
@@ -70,7 +70,7 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/userLog"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/userLog"
         app:layout_constraintTop_toBottomOf="@+id/userLog"
         app:layout_constraintVertical_bias="1.0" />
@@ -79,12 +79,13 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="P A S S W O R D"
         app:layout_constraintBottom_toBottomOf="@+id/passLog"
         app:layout_constraintEnd_toEndOf="@+id/userLog"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/userLog"
         app:layout_constraintTop_toBottomOf="@+id/userLog"
-        app:layout_constraintVertical_bias="0.733" />
+        app:layout_constraintVertical_bias="0.502" />
 
     <Button
         android:id="@+id/LoginButton"

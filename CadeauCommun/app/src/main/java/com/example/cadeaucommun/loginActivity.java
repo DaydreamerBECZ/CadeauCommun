@@ -15,36 +15,35 @@ public class loginActivity extends AppCompatActivity {
     EditText userid;
     EditText password;
 
-    //Declaring credentials here :
-    String email_user="chantal.lacroix@gmail.com";
-    String username="ChanLac46";
-    String password_user="Chantal";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        organizerSwitch = findViewById(R.id.organizerSwitch);
+        userid = findViewById(R.id.userLog);
+        password = findViewById(R.id.passLog);
     }
 
     public void loginSubmit(View view)
     {
-        organizerSwitch = findViewById(R.id.organizerSwitch);
-        userid = findViewById(R.id.userLog);
-        password = findViewById(R.id.passLog);
-        Toast msg = null;
-        if ((email_user.equals(userid.getText())) || (username.equals(userid.getText()))) {
-            if (organizerSwitch.isChecked()) {
+        String user = userid.getText().toString();
+        String pass = password.getText().toString();
+        if (user.equals("ChanLac46") && pass.equals("Chantal")) {
+            if (organizerSwitch.isChecked())
+            {
                 Intent orgIntent = new Intent(this, participantSelectionActivity.class);
                 startActivity(orgIntent);
             }
             else
-            {
-                msg = Toast.makeText(this, "ok", Toast.LENGTH_LONG);
-            }
+                displayMsg("ok");
         }
         else
-        {
-            msg = Toast.makeText(this, userid.getText() + " " + username + " " + password.getText(), Toast.LENGTH_LONG);
-        }
+            displayMsg("Invalid Credential");
+    }
+
+    public void displayMsg(String message)
+    {
+        Toast msg = Toast.makeText(this, message, Toast.LENGTH_LONG);
         msg.show();
     }
 }
