@@ -20,7 +20,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.CadeauCommun" >
         <activity
-            android:name="com.example.cadeaucommun.MainActivity"
+            android:name="com.example.cadeaucommun.loginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cadeaucommun.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cadeaucommun.participantSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cadeaucommun.StartUpActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

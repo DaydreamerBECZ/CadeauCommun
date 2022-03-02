@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CadeauCommun">
         <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".participantSelectionActivity"
             android:exported="false" />
         <activity
             android:name=".StartUpActivity"

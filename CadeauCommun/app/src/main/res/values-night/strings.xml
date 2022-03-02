@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usernameHint">u s e r n a m e</string>
+    <string name="eMailHint">e - m a i l</string>
+</resources>
