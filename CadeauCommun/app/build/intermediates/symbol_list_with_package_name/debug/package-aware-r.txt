@@ -1921,6 +1921,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -2591,6 +2592,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id applyBtn
 id arc
 id asConfigured
 id async
@@ -2609,7 +2611,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2808,6 +2809,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nav_graph
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2829,7 +2831,6 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
-id organizerSwitch
 id outline
 id outward
 id overshoot
@@ -2839,7 +2840,6 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id passLog
 id password_toggle
 id path
 id pathRelative
@@ -2853,7 +2853,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id registerSubmit
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2948,7 +2947,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView10
 id textView11
 id textView2
 id textView3
@@ -2957,7 +2955,6 @@ id textView5
 id textView6
 id textView7
 id textView8
-id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2988,7 +2985,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id userLog
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3091,7 +3087,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_login
+layout activity_gifting
 layout activity_participant_selection
 layout activity_register
 layout custom_dialog
@@ -3186,6 +3182,7 @@ menu example_menu
 menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
+navigation nav_graph
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
