@@ -9,9 +9,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="title">#3F7A4C</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">CadeauCommun</string>
     <string name="apply">APPLY</string>
     <string name="eMailHint">e - m a i l</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="loginButtonText">LOGIN</string>
     <string name="loginInvite">Already a MAGIFT user ? Login !</string>
     <string name="mainTitleText">M A G I F T</string>
