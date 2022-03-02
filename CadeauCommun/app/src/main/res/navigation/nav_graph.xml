@@ -2,4 +2,47 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph" />
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startUpActivity">
+    <activity
+        android:id="@+id/startUpActivity"
+        android:name="com.example.cadeaucommun.FEL.Activity.StartUpActivity"
+        android:label="startup_activity"
+        tools:layout="@layout/startup_activity" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.cadeaucommun.FEL.Activity.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/participantSelectionActivity"
+        android:name="com.example.cadeaucommun.FEL.Activity.participantSelectionActivity"
+        android:label="activity_participant_selection"
+        tools:layout="@layout/activity_participant_selection" />
+    <fragment
+        android:id="@+id/giftCreationFragment"
+        android:name="com.example.cadeaucommun.FEL.Fragment.giftCreationFragment"
+        android:label="fragment_gift_creation"
+        tools:layout="@layout/fragment_gift_creation" >
+        <action
+            android:id="@+id/action_giftCreationFragment_to_giftingActivity"
+            app:destination="@id/giftingActivity" />
+        <action
+            android:id="@+id/action_giftCreationFragment_to_giftingActivity2"
+            app:destination="@id/giftingActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/giftingActivity"
+        android:name="com.example.cadeaucommun.FEL.Activity.giftingActivity"
+        android:label="activity_gifting"
+        tools:layout="@layout/activity_gifting" />
+    <fragment
+        android:id="@+id/participantViewFragment"
+        android:name="com.example.cadeaucommun.FEL.Fragment.participantViewFragment"
+        android:label="fragment_participant_view"
+        tools:layout="@layout/fragment_participant_view" >
+        <action
+            android:id="@+id/action_participantViewFragment_to_giftingActivity"
+            app:destination="@id/giftingActivity" />
+    </fragment>
+</navigation>

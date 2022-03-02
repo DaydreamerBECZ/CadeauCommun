@@ -8,18 +8,23 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="FirstFragment">
+                  <entry key="giftCreationFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="256" />
-                            <option name="y" value="12" />
+                            <option name="x" value="-129" />
+                            <option name="y" value="337" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_FirstFragment_to_SecondFragment">
+                            <entry key="action_giftCreationFragment_to_giftingActivity">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_giftCreationFragment_to_giftingActivity2">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -29,23 +34,71 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="SecondFragment">
+                  <entry key="giftingActivity">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="95" />
+                            <option name="y" value="130" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="participantSelectionActivity">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-2" />
+                            <option name="y" value="-174" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="participantViewFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-311" />
+                            <option name="y" value="152" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_SecondFragment_to_FirstFragment">
+                            <entry key="action_participantViewFragment_to_giftingActivity">
                               <value>
                                 <LayoutPositions />
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="registerActivity">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-239" />
+                            <option name="y" value="-177" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="startUpActivity">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-389" />
+                            <option name="y" value="-178" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>
