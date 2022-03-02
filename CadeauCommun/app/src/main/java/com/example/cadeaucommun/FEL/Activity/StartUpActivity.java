@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.cadeaucommun.R;
-import com.example.cadeaucommun.loginActivity;
 
 public class StartUpActivity extends AppCompatActivity {
 

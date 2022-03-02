@@ -11,7 +11,7 @@
 9-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:5:5-31:19
+11-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:5:5-36:19
 12        android:allowBackup="true"
 12-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -31,74 +31,73 @@
 21-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:11:9-50
 22        <activity
 22-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:12:9-14:40
-23            android:name="com.example.cadeaucommun.loginActivity"
-23-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:13:13-42
+23            android:name="com.example.cadeaucommun.FEL.Activity.loginActivity"
+23-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:13:13-55
 24            android:exported="false" />
 24-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:14:13-37
 25        <activity
-25-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:15:9-17:40
-26            android:name="com.example.cadeaucommun.FEL.Activity.RegisterActivity"
-26-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:16:13-58
+25-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:15:9-17:36
+26            android:name="com.example.cadeaucommun.FEL.Activity.participantSelectionActivity"
+26-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:16:9-66
 27            android:exported="false" />
-27-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:17:13-37
+27-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:17:9-33
 28        <activity
-28-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:18:9-20:40
-29            android:name="com.example.cadeaucommun.FEL.Activity.giftingActivity"
-29-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:19:13-57
+28-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:18:9-20:36
+29            android:name="com.example.cadeaucommun.FEL.Activity.eventManagerActivity"
+29-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:19:9-58
 30            android:exported="false" />
-30-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:20:13-37
+30-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:20:9-33
 31        <activity
-31-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:21:9-29:20
-32            android:name="com.example.cadeaucommun.FEL.Activity.StartUpActivity"
+31-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:21:9-23:40
+32            android:name="com.example.cadeaucommun.FEL.Activity.giftingActivity"
 32-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:22:13-57
-33            android:exported="true" >
-33-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:23:13-36
-34            <intent-filter>
-34-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:24:13-28:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:25:17-69
-35-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:25:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:27:17-77
-37-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:27:27-74
-38            </intent-filter>
-39        </activity>
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-43            android:authorities="com.example.cadeaucommun.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-51        </provider>
-52
-53        <uses-library
-53-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-54            android:name="androidx.window.extensions"
-54-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-55            android:required="false" />
-55-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-56        <uses-library
-56-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-57            android:name="androidx.window.sidecar"
-57-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-58            android:required="false" />
-58-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-59    </application>
-60
-61</manifest>
+33            android:exported="false" />
+33-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:23:13-37
+34        <activity
+34-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:24:9-26:40
+35            android:name="com.example.cadeaucommun.FEL.Activity.RegisterActivity"
+35-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:25:13-58
+36            android:exported="false" />
+36-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:26:13-37
+37        <activity
+37-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:27:9-35:20
+38            android:name="com.example.cadeaucommun.FEL.Activity.StartUpActivity"
+38-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:28:13-57
+39            android:exported="true" >
+39-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:29:13-36
+40            <intent-filter>
+40-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:30:13-34:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:31:17-69
+41-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:31:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:33:17-77
+43-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:33:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+49            android:authorities="com.example.cadeaucommun.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>

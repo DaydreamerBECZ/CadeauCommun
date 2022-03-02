@@ -10,16 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CadeauCommun">
         <activity
-            android:name=".loginActivity"
+            android:name=".FEL.Activity.loginActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+        android:name=".FEL.Activity.participantSelectionActivity"
+        android:exported="false" />
+        <activity
+        android:name=".FEL.Activity.eventManagerActivity"
+        android:exported="false" />
+        <activity
+            android:name=".FEL.Activity.giftingActivity"
             android:exported="false" />
         <activity
-            android:name=".participantSelectionActivity"
+            android:name=".FEL.Activity.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".StartUpActivity"
+            android:name=".FEL.Activity.StartUpActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
