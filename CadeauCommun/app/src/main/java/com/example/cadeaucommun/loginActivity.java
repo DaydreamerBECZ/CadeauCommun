@@ -50,4 +50,6 @@ public class loginActivity extends AppCompatActivity {
         Toast msg = Toast.makeText(this, message, Toast.LENGTH_LONG);
         msg.show();
     }
+
+    //Je suis un commentaire
 }
