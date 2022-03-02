@@ -13,4 +13,11 @@
     <string name="passwordHint">p a s s w o r d</string>
     <string name="participantChoiceTextbox">Choose your participant(s):</string>
     <string name="apply">APPLY</string>
+    <string name="makeGift">Make A Gift.</string>
+    <string name="makeGiftSubtitle">Create a meaningful gift for a special occasion. All information is relative to the gift.</string>
+    <string name="giftTitle">Title</string>
+    <string name="giftDescription">Description</string>
+    <string name="giftCost">Cost ($CAD)</string>
+    <string name="giftImage">Image Link (optional)</string>
+    <string name="invitedTextBox">Invited participants to your event.</string>
 </resources>

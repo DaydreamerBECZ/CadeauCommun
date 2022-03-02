@@ -4,7 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".FEL.Activity.RegisterActivity">
+
+    <Button
+        android:id="@+id/registerSubmit"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/subtitle"
+        android:text="R E G I S T E R"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView5"
