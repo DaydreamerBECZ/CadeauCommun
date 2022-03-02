@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/makeGiftFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FEL.Fragment.giftCreationFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/makeGiftFragmentFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:background="@color/title"
+            android:backgroundTint="@color/title"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/makeGift"
+            android:textAlignment="center"
+            android:textColor="#FBF7F7"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.096" />
+
+        <TextView
+            android:id="@+id/makeGiftTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/subtitle"
+            android:text="@string/makeGiftSubtitle"
+            android:textAlignment="viewStart"
+            android:textColor="#263238" />
+
+        <EditText
+            android:id="@+id/giftTitleTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/giftTitle"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/giftDescriptionTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/giftDescription"
+            android:inputType="textImeMultiLine"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/giftImageTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/giftImage"
+            android:inputType="textUri"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/costTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/giftCost"
+            android:inputType="number|numberDecimal"
+            android:minHeight="48dp" />
+    </LinearLayout>
+
+</FrameLayout>
