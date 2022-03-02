@@ -1,24 +1,21 @@
 package com.example.cadeaucommun.BLL.Model;
 
 public class Participant extends User{
-    private static int auto_id = 0;
-    private int id;
-    private String name;
 
-    public Participant(String name){
-        super(name);
+
+    public Participant(String fName, String lName, String img) {
+        super(fName, lName, img);
     }
 
     public String getName() {
-        return this.name;
+        return super.getName();
     }
 
     @Override
     public String toString() {
         return "Participant{" +
-                "id=" + id +
-                ", name='" + String.valueOf(this.name) + '\'' +
+                "id=" + super.getId() +
+                ", name='" + super.getName() + '\'' +
                 '}';
     }
-
 }

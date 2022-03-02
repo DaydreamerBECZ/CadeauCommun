@@ -15,6 +15,10 @@ public class loginActivity extends AppCompatActivity {
     EditText userid;
     EditText password;
 
+    //Credentials of the user
+    String uname="ChanLac46";
+    String pass="Chantal";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,14 +32,14 @@ public class loginActivity extends AppCompatActivity {
     {
         String user = userid.getText().toString();
         String pass = password.getText().toString();
-        if (user.equals("ChanLac46") && pass.equals("Chantal")) {
+        if (user.equals(uname) && pass.equals(pass)) {
             if (organizerSwitch.isChecked())
             {
-                Intent orgIntent = new Intent(this, participantSelectionActivity.class);
+                Intent orgIntent = new Intent(this, eventManagerActivity.class);
                 startActivity(orgIntent);
             }
             else
-                displayMsg("ok");
+                displayMsg("Participant view in construction");
         }
         else
             displayMsg("Invalid Credential");

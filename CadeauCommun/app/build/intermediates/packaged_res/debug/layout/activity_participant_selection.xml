@@ -6,23 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".participantSelectionActivity">
 
-    <ListView
-        android:id="@+id/allParticipantsListView"
-        android:layout_width="345dp"
-        android:layout_height="477dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/applyBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/subtitle"
+        android:onClick="applyParticipants"
+        android:text="@string/apply"
         app:layout_constraintEnd_toEndOf="@+id/allParticipantsListView"
-        app:layout_constraintTop_toBottomOf="@+id/allParticipantsListView" />
+        app:layout_constraintTop_toBottomOf="@+id/allParticipantsListView"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView11"
@@ -33,5 +27,15 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/allParticipantsListView"
         app:layout_constraintStart_toStartOf="@+id/allParticipantsListView" />
+
+    <ListView
+        android:id="@+id/allParticipantsListView"
+        android:layout_width="363dp"
+        android:layout_height="460dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
