@@ -31,7 +31,7 @@ public class eventManagerActivity extends AppCompatActivity {
 
     public void CreateEventClick(View view)
     {
-        Toast not_available = Toast.makeText(this, "Not available yet", Toast.LENGTH_LONG);
-        not_available.show();
+        Intent participants = new Intent(this, giftingActivity.class);
+        startActivity(participants);
     }
 }

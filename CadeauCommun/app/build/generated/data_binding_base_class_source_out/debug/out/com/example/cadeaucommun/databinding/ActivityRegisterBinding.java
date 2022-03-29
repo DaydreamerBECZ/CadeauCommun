@@ -4,6 +4,7 @@ package com.example.cadeaucommun.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -30,6 +31,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final EditText editTextTextPersonName;
 
   @NonNull
+  public final Button registerSubmit;
+
+  @NonNull
   public final TextView textView5;
 
   @NonNull
@@ -43,12 +47,14 @@ public final class ActivityRegisterBinding implements ViewBinding {
 
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
       @NonNull EditText editTextTextEmailAddress, @NonNull EditText editTextTextPassword,
-      @NonNull EditText editTextTextPersonName, @NonNull TextView textView5,
-      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8) {
+      @NonNull EditText editTextTextPersonName, @NonNull Button registerSubmit,
+      @NonNull TextView textView5, @NonNull TextView textView6, @NonNull TextView textView7,
+      @NonNull TextView textView8) {
     this.rootView = rootView;
     this.editTextTextEmailAddress = editTextTextEmailAddress;
     this.editTextTextPassword = editTextTextPassword;
     this.editTextTextPersonName = editTextTextPersonName;
+    this.registerSubmit = registerSubmit;
     this.textView5 = textView5;
     this.textView6 = textView6;
     this.textView7 = textView7;
@@ -100,6 +106,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.registerSubmit;
+      Button registerSubmit = ViewBindings.findChildViewById(rootView, id);
+      if (registerSubmit == null) {
+        break missingId;
+      }
+
       id = R.id.textView5;
       TextView textView5 = ViewBindings.findChildViewById(rootView, id);
       if (textView5 == null) {
@@ -125,7 +137,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       return new ActivityRegisterBinding((ConstraintLayout) rootView, editTextTextEmailAddress,
-          editTextTextPassword, editTextTextPersonName, textView5, textView6, textView7, textView8);
+          editTextTextPassword, editTextTextPersonName, registerSubmit, textView5, textView6,
+          textView7, textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -21,10 +21,10 @@ public final class StartupActivityBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button LoginButton;
+  public final Button RegButton;
 
   @NonNull
-  public final Button RegButton;
+  public final Button registerSubmit;
 
   @NonNull
   public final TextView textView;
@@ -38,12 +38,12 @@ public final class StartupActivityBinding implements ViewBinding {
   @NonNull
   public final TextView textView4;
 
-  private StartupActivityBinding(@NonNull ConstraintLayout rootView, @NonNull Button LoginButton,
-      @NonNull Button RegButton, @NonNull TextView textView, @NonNull TextView textView2,
+  private StartupActivityBinding(@NonNull ConstraintLayout rootView, @NonNull Button RegButton,
+      @NonNull Button registerSubmit, @NonNull TextView textView, @NonNull TextView textView2,
       @NonNull TextView textView3, @NonNull TextView textView4) {
     this.rootView = rootView;
-    this.LoginButton = LoginButton;
     this.RegButton = RegButton;
+    this.registerSubmit = registerSubmit;
     this.textView = textView;
     this.textView2 = textView2;
     this.textView3 = textView3;
@@ -77,15 +77,15 @@ public final class StartupActivityBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.LoginButton;
-      Button LoginButton = ViewBindings.findChildViewById(rootView, id);
-      if (LoginButton == null) {
-        break missingId;
-      }
-
       id = R.id.RegButton;
       Button RegButton = ViewBindings.findChildViewById(rootView, id);
       if (RegButton == null) {
+        break missingId;
+      }
+
+      id = R.id.registerSubmit;
+      Button registerSubmit = ViewBindings.findChildViewById(rootView, id);
+      if (registerSubmit == null) {
         break missingId;
       }
 
@@ -113,7 +113,7 @@ public final class StartupActivityBinding implements ViewBinding {
         break missingId;
       }
 
-      return new StartupActivityBinding((ConstraintLayout) rootView, LoginButton, RegButton,
+      return new StartupActivityBinding((ConstraintLayout) rootView, RegButton, registerSubmit,
           textView, textView2, textView3, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);

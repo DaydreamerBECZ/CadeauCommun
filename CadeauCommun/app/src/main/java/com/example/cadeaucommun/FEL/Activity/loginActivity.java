@@ -1,7 +1,6 @@
 package com.example.cadeaucommun.FEL.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,7 +8,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.Toast;
-
 import com.example.cadeaucommun.R;
 
 public class loginActivity extends AppCompatActivity {
@@ -33,7 +31,7 @@ public class loginActivity extends AppCompatActivity {
 
     public void loginSubmit(View view)
     {
-        if (this.uname.equals(userid.getText().toString()) && passwd.equals(password.getText().toString())) {
+        if (this.uname.equals(userid.getText().toString()) && this.passwd.equals(password.getText().toString())) {
             if (organizerSwitch.isChecked())
             {
                 Intent orgIntent = new Intent(this, eventManagerActivity.class);

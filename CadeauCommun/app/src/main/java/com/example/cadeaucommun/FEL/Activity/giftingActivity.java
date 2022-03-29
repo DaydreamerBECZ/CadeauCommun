@@ -38,9 +38,6 @@ public class giftingActivity extends AppCompatActivity {
         transaction.add(R.id.participantListFragmentFrameLayout, participantListViewFragment);
 
         Bundle extra = this.getIntent().getBundleExtra("Participants Selected");
-
-        //selectedParticipants = extra.getSerializable("Participants Selected");
-
         selectedParticipantsNames = selectedParticipants.stream().map(x -> x.getName()).collect(Collectors.toList());
 
         transaction.commit();
