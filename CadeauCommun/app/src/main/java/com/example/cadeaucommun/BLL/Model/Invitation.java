@@ -13,6 +13,7 @@ public class Invitation {
         this.participant = p;
         this.evenement = e;
     }
+    public Invitation(){ }
 
     @Override
     public String toString() {

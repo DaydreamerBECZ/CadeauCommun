@@ -20,6 +20,7 @@ public class ParticipantDAO implements IDAO<Participant> {
         this.myHelper = new MyHelper(this.context);
     }
 
+    public  ParticipantDAO(){}
 
     @Override
     public void add(Participant participant) {

@@ -23,6 +23,8 @@ public class EvenementDAO implements IDAO<Evenement> {
         this.myHelper = new MyHelper(this.context);
     }
 
+    public EvenementDAO() {}
+
     @Override
     public void add(Evenement evenement) {
         SQLiteDatabase db = this.myHelper.getWritableDatabase();
