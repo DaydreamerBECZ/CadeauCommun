@@ -1,8 +1,8 @@
 package com.example.cadeaucommun.BLL.Model;
 
-import java.util.ArrayList;
 import java.util.List;
 
+@Deprecated
 public class Gift {
     private static int auto_id = 0;
     private int id;
@@ -10,7 +10,7 @@ public class Gift {
     private String description;
     private String image;
     private double goal;
-    private List<Participant> invitees;
+    private List<ParticipantOld> invitees;
 
     public Gift(String title, String description, String image, double goal) {
         this.id=auto_id;

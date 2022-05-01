@@ -20,4 +20,8 @@
     <string name="giftCost">Cost ($CAD)</string>
     <string name="giftImage">Image Link (optional)</string>
     <string name="invitedTextBox">Invited participants to your event.</string>
+    <string name="l_o_g_i_n">L O G I N</string>
+    <string name="u_s_e_r_n_a_m_e">U S E R N A M E</string>
+    <string name="r_e_g_i_s_t_e_r">R E G I S T E R</string>
+    <string name="p_a_s_s_w_o_r_d">P A S S W O R D</string>
 </resources>

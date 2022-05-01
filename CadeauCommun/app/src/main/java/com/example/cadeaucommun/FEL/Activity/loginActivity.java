@@ -6,56 +6,41 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.cadeaucommun.BLL.Model.Participant;
+import com.example.cadeaucommun.DAL.ConcreteDAOs.ParticipantDAO;
 import com.example.cadeaucommun.R;
 
+import java.util.Optional;
+
 public class loginActivity extends AppCompatActivity {
-
-    Switch organizerSwitch;
-    EditText userid;
-    EditText password;
-
-    //Credentials of the user
-    String uname="ChanLac46";
-    String passwd="Chantal";
+    TextView usernameInput;
+    TextView passwordInput;
+    ParticipantDAO dao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        organizerSwitch = findViewById(R.id.organizerSwitch);
-        userid = findViewById(R.id.userLog);
-        password = findViewById(R.id.passLog);
+        usernameInput = findViewById(R.id.firstName_lbl);
+        passwordInput = findViewById(R.id.password_lbl);
     }
 
-    public void loginSubmit(View view)
-    {
-        if (this.uname.equals(userid.getText().toString()) && passwd.equals(password.getText().toString())) {
-            if (organizerSwitch.isChecked())
-            {
+    public void loginSubmit(View view) {
+        dao = new ParticipantDAO(this);
+        Participant aParticipantsUsername = dao.findParticipantByUsername(usernameInput.getText().toString());
+        Participant aParticipantsPassword = dao.findParticipantByPassword(passwordInput.getText().toString());
+
+        if(aParticipantsUsername != null && aParticipantsPassword != null){
+            String foundUsername = aParticipantsUsername.getUsername();
+            String foundPassword = aParticipantsPassword.getPassword();
+            if (this.usernameInput.getText().toString().equals(foundUsername) && passwordInput.getText().toString().equals(foundPassword)) {
                 Intent orgIntent = new Intent(this, eventManagerActivity.class);
                 startActivity(orgIntent);
-            }
-            else
-                displayMsg("Participant view in construction");
-        }
-        else{
-            displayMsg("Invalid Credential");
-            Log.d("Credentials are", userid.getText().toString() + " " + password.getText().toString());
-        }
-    }
-
-    public void displayMsg(String message)
-    {
-        Toast msg = Toast.makeText(this, message, Toast.LENGTH_SHORT);
-        msg.show();
-    }
-
-    public void bypassLoginScreen(View view) {
-        Intent orgIntent = new Intent(this, eventManagerActivity.class);
-        startActivity(orgIntent);
+            } else Toast.makeText(this, "Invalid Credentials. Please try again.", Toast.LENGTH_SHORT).show();
+        } else Toast.makeText(this, "We do not have an account registered to your name. Please register!", Toast.LENGTH_SHORT).show();
+        Log.d("Submitted username is ", usernameInput.getText().toString() + ", submitted password is: " + passwordInput.getText().toString());
     }
 }

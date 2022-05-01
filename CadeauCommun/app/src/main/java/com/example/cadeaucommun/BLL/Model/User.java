@@ -1,5 +1,5 @@
 package com.example.cadeaucommun.BLL.Model;
-
+@Deprecated
 public abstract class User {
     private static int auto_id = 0;
     private int id;
@@ -12,6 +12,16 @@ public abstract class User {
         this.lName = lName;
         this.img = img;
         auto_id++;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", img='" + img + '\'' +
+                ", fName='" + fName + '\'' +
+                ", lName='" + lName + '\'' +
+                '}';
     }
 
     public int getId() {

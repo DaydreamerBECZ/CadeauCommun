@@ -9,19 +9,17 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-
+import com.example.cadeaucommun.BLL.Model.*;
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.cadeaucommun.BLL.Model.Participant;
 import com.example.cadeaucommun.R;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class participantSelectionActivity extends AppCompatActivity {
-    List<Participant> participants = new ArrayList<>();
+    List<ParticipantOld> participants = new ArrayList<>();
     List<String> participantsNames = new ArrayList<>();
-    ArrayList<Participant> selected = new ArrayList<>();
+    ArrayList<ParticipantOld> selected = new ArrayList<>();
     ArrayAdapter<String> adapter;
     ListView listView;
     @Override
@@ -33,15 +31,15 @@ public class participantSelectionActivity extends AppCompatActivity {
         listView =  findViewById(R.id.allParticipantsListView);
 
         //participant objects for test, eventually will be DAO call to get all participants from db.
-        Participant p = new Participant("Mark", "Awad", "pic.jpeg");
+        ParticipantOld p = new ParticipantOld("Mark", "Awad", "pic.jpeg");
         participants.add(p);
-        Participant p1 = new Participant("Zachary", "Bechard", "pic.jpeg");
+        ParticipantOld p1 = new ParticipantOld("Zachary", "Bechard", "pic.jpeg");
         participants.add(p1);
-        Participant p2 = new Participant("Shady", "Guindi", "pic.jpeg");
+        ParticipantOld p2 = new ParticipantOld("Shady", "Guindi", "pic.jpeg");
         participants.add(p2);
-        Participant p3 = new Participant("Yssa", "Metry", "pic.jpeg");
+        ParticipantOld p3 = new ParticipantOld("Yssa", "Metry", "pic.jpeg");
         participants.add(p3);
-        Participant p4 = new Participant("Ioann", "Robert", "pic.jpeg");
+        ParticipantOld p4 = new ParticipantOld("Ioann", "Robert", "pic.jpeg");
         participants.add(p4);
 
         participantsNames = participants.stream().map(x -> x.getName()).collect(Collectors.toList()); //transform each element into a usable list for displaying

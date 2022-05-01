@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.cadeaucommun.BLL.Model.Participant;
+import com.example.cadeaucommun.BLL.Model.ParticipantOld;
 import com.example.cadeaucommun.FEL.Fragment.giftCreationFragment;
 import com.example.cadeaucommun.FEL.Fragment.participantViewFragment;
 import com.example.cadeaucommun.R;
@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 public class giftingActivity extends AppCompatActivity {
     ArrayAdapter<String> adapter;
     List<String> selectedParticipantsNames = new ArrayList<>();
-    List<Participant> selectedParticipants = new ArrayList<>();
+    List<ParticipantOld> selectedParticipants = new ArrayList<>();
     ListView listView;
 
     @Override
