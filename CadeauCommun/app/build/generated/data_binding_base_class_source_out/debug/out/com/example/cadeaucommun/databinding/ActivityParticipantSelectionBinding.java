@@ -25,17 +25,17 @@ public final class ActivityParticipantSelectionBinding implements ViewBinding {
   public final ListView allParticipantsListView;
 
   @NonNull
-  public final Button button3;
+  public final Button applyBtn;
 
   @NonNull
   public final TextView textView11;
 
   private ActivityParticipantSelectionBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ListView allParticipantsListView, @NonNull Button button3,
+      @NonNull ListView allParticipantsListView, @NonNull Button applyBtn,
       @NonNull TextView textView11) {
     this.rootView = rootView;
     this.allParticipantsListView = allParticipantsListView;
-    this.button3 = button3;
+    this.applyBtn = applyBtn;
     this.textView11 = textView11;
   }
 
@@ -72,9 +72,9 @@ public final class ActivityParticipantSelectionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
+      id = R.id.applyBtn;
+      Button applyBtn = ViewBindings.findChildViewById(rootView, id);
+      if (applyBtn == null) {
         break missingId;
       }
 
@@ -85,7 +85,7 @@ public final class ActivityParticipantSelectionBinding implements ViewBinding {
       }
 
       return new ActivityParticipantSelectionBinding((ConstraintLayout) rootView,
-          allParticipantsListView, button3, textView11);
+          allParticipantsListView, applyBtn, textView11);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

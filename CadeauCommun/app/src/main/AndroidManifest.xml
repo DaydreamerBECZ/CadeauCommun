@@ -13,11 +13,11 @@
             android:name=".FEL.Activity.loginActivity"
             android:exported="false" />
         <activity
-        android:name=".FEL.Activity.participantSelectionActivity"
-        android:exported="false" />
+            android:name=".FEL.Activity.participantSelectionActivity"
+            android:exported="false" />
         <activity
-        android:name=".FEL.Activity.eventManagerActivity"
-        android:exported="false" />
+            android:name=".FEL.Activity.eventManagerActivity"
+            android:exported="false" />
         <activity
             android:name=".FEL.Activity.giftingActivity"
             android:exported="false" />
