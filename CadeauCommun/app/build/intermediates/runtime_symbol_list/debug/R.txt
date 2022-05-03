@@ -2666,13 +2666,13 @@ int id bounce 0x7f080065
 int id bounceBoth 0x7f080066
 int id bounceEnd 0x7f080067
 int id bounceStart 0x7f080068
-int id button 0x7f080069
 int id buttonPanel 0x7f08006a
 int id cache_measures 0x7f08006b
 int id calendarView 0x7f080220
 int id callMeasure 0x7f08006c
 int id cancel_action 0x7f08006d
 int id cancel_button 0x7f08006e
+int id cardView 0x7f080225
 int id carryVelocity 0x7f08006f
 int id center 0x7f080070
 int id center_horizontal 0x7f080071
@@ -2719,6 +2719,7 @@ int id decor_content_parent 0x7f080098
 int id default_activity_button 0x7f080099
 int id deltaRelative 0x7f08009a
 int id dependency_ordering 0x7f08009b
+int id descriptionView_lbl 0x7f080226
 int id design_bottom_sheet 0x7f08009c
 int id design_menu_item_action_area 0x7f08009d
 int id design_menu_item_action_area_stub 0x7f08009e
@@ -2748,12 +2749,12 @@ int id east 0x7f0800b5
 int id edit_query 0x7f0800ba
 int id elastic 0x7f0800bb
 int id end 0x7f0800bc
+int id endDateView_lbl 0x7f080227
 int id endDate_textView 0x7f080219
 int id endToStart 0x7f0800bd
 int id end_padder 0x7f0800be
 int id enterAlways 0x7f0800bf
 int id enterAlwaysCollapsed 0x7f0800c0
-int id eventButton 0x7f0800c1
 int id eventDesc_lbl 0x7f08021a
 int id eventDesc_textView 0x7f08021b
 int id eventEndDate_lbl 0x7f08021c
@@ -3005,6 +3006,7 @@ int id src_in 0x7f0801b5
 int id src_over 0x7f0801b6
 int id standard 0x7f0801b7
 int id start 0x7f0801b8
+int id startDateView_lbl 0x7f080228
 int id startDate_textView 0x7f08021f
 int id startHorizontal 0x7f0801b9
 int id startToEnd 0x7f0801ba
@@ -3015,6 +3017,7 @@ int id status_bar_latest_event_content 0x7f0801be
 int id stop 0x7f0801bf
 int id stretch 0x7f0801c0
 int id submenuarrow 0x7f0801c1
+int id submitEvent_btn 0x7f080224
 int id submit_area 0x7f0801c2
 int id supportScrollUp 0x7f0801c3
 int id tabMode 0x7f0801c4
@@ -3061,6 +3064,7 @@ int id textinput_suffix_text 0x7f0801f0
 int id time 0x7f0801f1
 int id title 0x7f0801f2
 int id titleDividerNoCustom 0x7f0801f3
+int id titleView_lbl 0x7f080229
 int id title_template 0x7f0801f4
 int id toggle 0x7f0801f5
 int id top 0x7f0801f6
@@ -3208,6 +3212,7 @@ int layout design_text_input_end_icon 0x7f0b0030
 int layout design_text_input_start_icon 0x7f0b0031
 int layout fragment_gift_creation 0x7f0b0032
 int layout fragment_participant_view 0x7f0b0033
+int layout layout_event 0x7f0b0086
 int layout m3_alert_dialog 0x7f0b0034
 int layout m3_alert_dialog_actions 0x7f0b0035
 int layout m3_alert_dialog_title 0x7f0b0036

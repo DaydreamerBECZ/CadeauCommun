@@ -48,6 +48,10 @@
         "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_event.xml.flat",
+        "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\layout_event.xml"
+    },
+    {
         "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\merged_res\\debug\\layout_startup_activity.xml.flat",
         "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\startup_activity.xml"
     },

@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.icu.util.LocaleData;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.CalendarView;
 import android.widget.TextView;
@@ -62,12 +63,7 @@ public class newEventActivity extends AppCompatActivity {
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int day) {
-                if(month>10)
-                    month= Integer.parseInt("0" + month);
-
-                if(day>10)
-                    day= Integer.parseInt("0" + day);
-                String date = day + "/" + (month + 1) + "/" + year;
+                String date = day + "-" + (month + 1) + "-" + year;
                 startDate.setText(date);
             }
         });
@@ -78,12 +74,7 @@ public class newEventActivity extends AppCompatActivity {
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int day) {
-                if(month>10)
-                    month= Integer.parseInt("0" + month);
-
-                if(day>10)
-                    day= Integer.parseInt("0" + day);
-                String date = day + "/" + (month + 1) + "/" + year;
+                String date = day + "-" + (month + 1) + "-" + year;
                 endDate.setText(date);
             }
         });
@@ -92,13 +83,20 @@ public class newEventActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.O)
     public void createEvent(View view) {
         EvenementDAO dao = new EvenementDAO(this);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-M-yyyy");
 
-        String title = this.eventTitle.getText().toString();
-        String desc = this.eventDescription.getText().toString();
-        LocalDate beginDate = LocalDate.parse(this.startDate.getText().toString(),formatter);
-        LocalDate endDate = LocalDate.parse(this.endDate.getText().toString(),formatter);
-        Evenement evenement = new Evenement(title, desc, beginDate, endDate);
+        LocalDate start = LocalDate.parse(this.startDate.getText().toString(),formatter);
+        LocalDate end = LocalDate.parse(this.endDate.getText().toString(),formatter);
+
+//        if(start.getMonthValue() < 10)
+//            start.format();
+
+        Evenement evenement = new Evenement();
+        evenement.setTitle(this.eventTitle.getText().toString());
+        evenement.setDescription(this.eventDescription.getText().toString());
+        evenement.setBeginDate(start);
+        evenement.setEndDate(end);
+
         dao.add(evenement);
         Toast.makeText(this,"Event was sucessfully created.", Toast.LENGTH_SHORT).show();
     }

@@ -8,6 +8,14 @@
         "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\activity_gifting.xml"
     },
     {
+        "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\event_layout.xml",
+        "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\event_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_event.xml",
+        "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\layout_event.xml"
+    },
+    {
         "merged": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_event_manager.xml",
         "source": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\src\\main\\res\\layout\\activity_event_manager.xml"
     },

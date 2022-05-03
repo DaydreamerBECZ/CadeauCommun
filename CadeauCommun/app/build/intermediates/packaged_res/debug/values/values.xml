@@ -17,7 +17,7 @@
     <string name="USERNAME">U S E R N A M E</string>
     <string name="app_name">Cadeau Commun</string>
     <string name="apply">APPLY</string>
-    <string name="dateFormat">D D / M M / Y Y Y Y</string>
+    <string name="dateFormat">D D - M M - Y Y Y Y</string>
     <string name="eMailHint">e - m a i l</string>
     <string name="eventBeginDate">S T A R T D A T E</string>
     <string name="eventDescription">D E S C R I P T I O N</string>

@@ -18,7 +18,6 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/eventButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +110,7 @@
         app:layout_constraintTop_toBottomOf="@+id/endDate_textView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submitEvent_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/subtitle"

@@ -38,5 +38,5 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="eventBeginDate">S T A R T D A T E</string>
     <string name="eventEndDate">E N D D A T E</string>
-    <string name="dateFormat">D D / M M / Y Y Y Y</string>
+    <string name="dateFormat">D D - M M - Y Y Y Y</string>
 </resources>

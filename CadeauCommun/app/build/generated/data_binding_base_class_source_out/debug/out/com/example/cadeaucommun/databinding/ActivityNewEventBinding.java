@@ -24,9 +24,6 @@ public final class ActivityNewEventBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button;
-
-  @NonNull
   public final CalendarView calendarView;
 
   @NonNull
@@ -60,18 +57,20 @@ public final class ActivityNewEventBinding implements ViewBinding {
   public final TextView startDateTextView;
 
   @NonNull
+  public final Button submitEventBtn;
+
+  @NonNull
   public final TextView textView6;
 
-  private ActivityNewEventBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
+  private ActivityNewEventBinding(@NonNull ConstraintLayout rootView,
       @NonNull CalendarView calendarView, @NonNull TextView endDateTextView,
       @NonNull EditText eventDescLbl, @NonNull TextView eventDescTextView,
       @NonNull EditText eventEndDateLbl, @NonNull EditText eventStartDateLbl,
       @NonNull EditText eventTitleLbl, @NonNull TextView eventTitleTextView,
       @NonNull FloatingActionButton floatingActionButton,
       @NonNull FloatingActionButton floatingActionButton2, @NonNull TextView startDateTextView,
-      @NonNull TextView textView6) {
+      @NonNull Button submitEventBtn, @NonNull TextView textView6) {
     this.rootView = rootView;
-    this.button = button;
     this.calendarView = calendarView;
     this.endDateTextView = endDateTextView;
     this.eventDescLbl = eventDescLbl;
@@ -83,6 +82,7 @@ public final class ActivityNewEventBinding implements ViewBinding {
     this.floatingActionButton = floatingActionButton;
     this.floatingActionButton2 = floatingActionButton2;
     this.startDateTextView = startDateTextView;
+    this.submitEventBtn = submitEventBtn;
     this.textView6 = textView6;
   }
 
@@ -113,12 +113,6 @@ public final class ActivityNewEventBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
-        break missingId;
-      }
-
       id = R.id.calendarView;
       CalendarView calendarView = ViewBindings.findChildViewById(rootView, id);
       if (calendarView == null) {
@@ -185,16 +179,22 @@ public final class ActivityNewEventBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.submitEvent_btn;
+      Button submitEventBtn = ViewBindings.findChildViewById(rootView, id);
+      if (submitEventBtn == null) {
+        break missingId;
+      }
+
       id = R.id.textView6;
       TextView textView6 = ViewBindings.findChildViewById(rootView, id);
       if (textView6 == null) {
         break missingId;
       }
 
-      return new ActivityNewEventBinding((ConstraintLayout) rootView, button, calendarView,
-          endDateTextView, eventDescLbl, eventDescTextView, eventEndDateLbl, eventStartDateLbl,
-          eventTitleLbl, eventTitleTextView, floatingActionButton, floatingActionButton2,
-          startDateTextView, textView6);
+      return new ActivityNewEventBinding((ConstraintLayout) rootView, calendarView, endDateTextView,
+          eventDescLbl, eventDescTextView, eventEndDateLbl, eventStartDateLbl, eventTitleLbl,
+          eventTitleTextView, floatingActionButton, floatingActionButton2, startDateTextView,
+          submitEventBtn, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

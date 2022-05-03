@@ -2667,13 +2667,13 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id buttonPanel
 id cache_measures
 id calendarView
 id callMeasure
 id cancel_action
 id cancel_button
+id cardView
 id carryVelocity
 id center
 id center_horizontal
@@ -2720,6 +2720,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descriptionView_lbl
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2749,12 +2750,12 @@ id east
 id edit_query
 id elastic
 id end
+id endDateView_lbl
 id endDate_textView
 id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-id eventButton
 id eventDesc_lbl
 id eventDesc_textView
 id eventEndDate_lbl
@@ -3006,6 +3007,7 @@ id src_in
 id src_over
 id standard
 id start
+id startDateView_lbl
 id startDate_textView
 id startHorizontal
 id startToEnd
@@ -3016,6 +3018,7 @@ id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
+id submitEvent_btn
 id submit_area
 id supportScrollUp
 id tabMode
@@ -3062,6 +3065,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleView_lbl
 id title_template
 id toggle
 id top
@@ -3209,6 +3213,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_gift_creation
 layout fragment_participant_view
+layout layout_event
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

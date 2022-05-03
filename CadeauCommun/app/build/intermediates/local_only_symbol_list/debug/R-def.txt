@@ -19,12 +19,13 @@ id allEvents_recyclerView
 id allParticipantsListView
 id applyBtn
 id applyBtn2
-id button
 id calendarView
+id cardView
 id costTextBox
 id createEvent_btn
+id descriptionView_lbl
+id endDateView_lbl
 id endDate_textView
-id eventButton
 id eventDesc_lbl
 id eventDesc_textView
 id eventEndDate_lbl
@@ -52,7 +53,9 @@ id password_textView
 id password_textView2
 id registerSubmit
 id selectedParticipantsListView
+id startDateView_lbl
 id startDate_textView
+id submitEvent_btn
 id textView
 id textView11
 id textView2
@@ -60,6 +63,7 @@ id textView3
 id textView4
 id textView5
 id textView6
+id titleView_lbl
 id username_lbl
 id username_textView
 layout activity_event_manager
@@ -70,6 +74,7 @@ layout activity_participant_selection
 layout activity_register
 layout fragment_gift_creation
 layout fragment_participant_view
+layout layout_event
 layout startup_activity
 mipmap ic_launcher
 mipmap ic_launcher_round

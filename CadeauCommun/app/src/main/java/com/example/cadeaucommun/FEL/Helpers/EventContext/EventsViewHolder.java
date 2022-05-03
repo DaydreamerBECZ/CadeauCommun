@@ -16,9 +16,9 @@ public class EventsViewHolder extends RecyclerView.ViewHolder {
 
     public EventsViewHolder(@NonNull View itemView) {
         super(itemView);
-        this.title_txt = itemView.findViewById(R.id.eventTitle_lbl);
-        this.desc_txt = itemView.findViewById(R.id.eventDesc_lbl);
-        this.startDate = itemView.findViewById(R.id.eventStartDate_lbl);
-        this.endDate = itemView.findViewById(R.id.eventEndDate_lbl);
+        this.title_txt = itemView.findViewById(R.id.titleView_lbl);
+        this.desc_txt = itemView.findViewById(R.id.descriptionView_lbl);
+        this.startDate = itemView.findViewById(R.id.startDateView_lbl);
+        this.endDate = itemView.findViewById(R.id.endDateView_lbl );
     }
 }

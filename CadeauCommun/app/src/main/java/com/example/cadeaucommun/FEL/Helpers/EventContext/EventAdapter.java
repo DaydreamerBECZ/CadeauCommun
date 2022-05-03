@@ -20,7 +20,7 @@ public class EventAdapter extends RecyclerView.Adapter<EventsViewHolder> {
     @Override
     public EventsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.layout.activity_event_manager, parent, false);
+        View view = inflater.inflate(R.layout.layout_event, parent, false);
         return new EventsViewHolder(view);
     }
 
