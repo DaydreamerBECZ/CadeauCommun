@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="hideCalendar"
+    android:soundEffectsEnabled="false"
+    tools:context=".FEL.Activity.newEventActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="275sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/title"
+        android:text="Create your next event."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eventTitle_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/eventTitle"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/eventTitle_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/eventTitle_textView"
+        app:layout_constraintStart_toStartOf="@+id/eventTitle_textView"
+        app:layout_constraintTop_toBottomOf="@+id/eventTitle_textView" />
+
+    <TextView
+        android:id="@+id/eventDesc_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/eventDescription"
+        app:layout_constraintEnd_toEndOf="@+id/eventTitle_lbl"
+        app:layout_constraintStart_toStartOf="@+id/eventTitle_lbl"
+        app:layout_constraintTop_toBottomOf="@+id/eventTitle_lbl" />
+
+    <TextView
+        android:id="@+id/startDate_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/eventBeginDate"
+        app:layout_constraintStart_toStartOf="@+id/eventStartDate_lbl"
+        app:layout_constraintTop_toBottomOf="@+id/eventDesc_lbl" />
+
+    <TextView
+        android:id="@+id/endDate_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/eventEndDate"
+        app:layout_constraintEnd_toEndOf="@+id/eventEndDate_lbl"
+        app:layout_constraintTop_toBottomOf="@+id/eventStartDate_lbl" />
+
+    <EditText
+        android:id="@+id/eventDesc_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/eventDesc_textView"
+        app:layout_constraintStart_toStartOf="@+id/eventDesc_textView"
+        app:layout_constraintTop_toBottomOf="@+id/eventDesc_textView" />
+
+    <EditText
+        android:id="@+id/eventStartDate_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dateFormat"
+        android:inputType="datetime"
+        android:onClick="handleStartDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startDate_textView" />
+
+    <EditText
+        android:id="@+id/eventEndDate_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dateFormat"
+        android:inputType="datetime"
+        android:onClick="handleEndDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endDate_textView" />
+
+    <Button
+        android:id="@+id/submitEvent_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/subtitle"
+        android:onClick="createEvent"
+        android:text="Create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventEndDate_lbl" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:onClick="showStartCalendar"
+        app:backgroundTint="@color/subtitle"
+        app:layout_constraintBottom_toBottomOf="@+id/eventStartDate_lbl"
+        app:layout_constraintStart_toEndOf="@+id/eventStartDate_lbl"
+        app:layout_constraintTop_toTopOf="@+id/eventStartDate_lbl"
+        app:maxImageSize="35dp"
+        app:rippleColor="#E1CFCF"
+        app:srcCompat="@android:drawable/ic_menu_today" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:onClick="showEndCalendar"
+        app:backgroundTint="@color/subtitle"
+        app:layout_constraintBottom_toBottomOf="@+id/eventEndDate_lbl"
+        app:layout_constraintEnd_toStartOf="@+id/eventEndDate_lbl"
+        app:layout_constraintTop_toTopOf="@+id/eventEndDate_lbl"
+        app:maxImageSize="35dp"
+        app:srcCompat="@android:drawable/ic_menu_today" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#71C57C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

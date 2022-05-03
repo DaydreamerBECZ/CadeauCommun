@@ -49,7 +49,7 @@ public class CadeauDAO implements IDAO<Cadeau> {
     }
 
     @Override
-    public List<Cadeau> findMany(int id) {
+    public List<Cadeau> findAll() {
         SQLiteDatabase db = this.myHelper.getReadableDatabase();
         String sql = "SELECT * FROM cadeau";
         Cursor cursor = db.rawQuery(sql, null);

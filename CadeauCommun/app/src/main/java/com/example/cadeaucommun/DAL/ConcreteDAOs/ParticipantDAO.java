@@ -89,10 +89,8 @@ public class ParticipantDAO implements IDAO<Participant> {
         return participant;
     }
 
-    //public Participant findByUserNameAndPassword()
-
     @Override
-    public List<Participant> findMany(int id) {
+    public List<Participant> findAll() {
         SQLiteDatabase db = this.myHelper.getReadableDatabase();
         String sql = "SELECT * FROM participant";
         Cursor cursor = db.rawQuery(sql, null);

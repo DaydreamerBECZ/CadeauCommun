@@ -60,7 +60,7 @@
         android:inputType="textPersonName|textPassword"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="@+id/password_textView2"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="@+id/password_textView2"
         app:layout_constraintTop_toBottomOf="@+id/password_textView2" />
 
@@ -90,7 +90,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/u_s_e_r_n_a_m_e"
+        android:text="@string/USERNAME"
         app:layout_constraintEnd_toEndOf="@+id/lastName_lbl"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/lastName_lbl"
@@ -101,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/p_a_s_s_w_o_r_d"
+        android:text="@string/PASSWORD"
         app:layout_constraintEnd_toEndOf="@+id/username_lbl"
         app:layout_constraintStart_toStartOf="@+id/username_lbl"
         app:layout_constraintTop_toBottomOf="@+id/username_lbl" />
@@ -112,9 +112,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="C O N F I R M  P A S S W O R D"
-        app:layout_constraintEnd_toEndOf="@+id/username_lbl"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/username_lbl"
+        app:layout_constraintEnd_toEndOf="@+id/password_lbl"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="@+id/password_lbl"
         app:layout_constraintTop_toBottomOf="@+id/password_lbl" />
 
     <Button
@@ -125,10 +125,10 @@
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/subtitle"
         android:onClick="registerUser"
-        android:text="@string/r_e_g_i_s_t_e_r"
+        android:text="@string/REGISTER"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/password_lbl2"
+        app:layout_constraintStart_toStartOf="@+id/password_lbl2"
         app:layout_constraintTop_toBottomOf="@+id/password_lbl2"
         tools:ignore="TextContrastCheck" />
 

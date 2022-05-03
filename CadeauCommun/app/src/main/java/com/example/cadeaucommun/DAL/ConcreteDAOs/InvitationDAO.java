@@ -58,7 +58,7 @@ public class InvitationDAO implements IDAO<Invitation> {
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
-    public List<Invitation> findMany(int id) {
+    public List<Invitation> findAll() {
         SQLiteDatabase db = this.myHelper.getReadableDatabase();
         String sql = "SELECT * FROM invitation";
         Cursor cursor = db.rawQuery(sql, null);

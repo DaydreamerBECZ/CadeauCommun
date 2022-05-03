@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\marka\\Desktop\\School\\W22\\Mobile\\Projet-W22\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
+            "outputFile": "C:\\Users\\Mark\\Desktop\\School\\Hiv2022\\Mobile\\Projet-A\\CadeauCommun\\CadeauCommun\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marka\\.gradle\\caches\\transforms-3\\46678933633e897331f6cbff7aabb141\\transformed\\core-1.7.0\\res\\values-ne\\values-ne.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "90",
-                        "startColumns": "4",
-                        "startOffsets": "7751",
-                        "endColumns": "100",
-                        "endOffsets": "7847"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\marka\\.gradle\\caches\\transforms-3\\97988b0f28a513a04038e9dd724181a1\\transformed\\appcompat-1.4.1\\res\\values-ne\\values-ne.xml",
+                    "source": "C:\\Users\\Mark\\.gradle\\caches\\transforms-3\\97988b0f28a513a04038e9dd724181a1\\transformed\\appcompat-1.4.1\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\marka\\.gradle\\caches\\transforms-3\\eac9e08fa28d6671a6f932ada5a5a9c7\\transformed\\material-1.5.0\\res\\values-ne\\values-ne.xml",
+                    "source": "C:\\Users\\Mark\\.gradle\\caches\\transforms-3\\eac9e08fa28d6671a6f932ada5a5a9c7\\transformed\\material-1.5.0\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\marka\\.gradle\\caches\\transforms-3\\90611e9cbda6e0d7c699384525dbadae\\transformed\\navigation-ui-2.4.1\\res\\values-ne\\values-ne.xml",
+                    "source": "C:\\Users\\Mark\\.gradle\\caches\\transforms-3\\46678933633e897331f6cbff7aabb141\\transformed\\core-1.7.0\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "90",
+                        "startColumns": "4",
+                        "startOffsets": "7751",
+                        "endColumns": "100",
+                        "endOffsets": "7847"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mark\\.gradle\\caches\\transforms-3\\90611e9cbda6e0d7c699384525dbadae\\transformed\\navigation-ui-2.4.1\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

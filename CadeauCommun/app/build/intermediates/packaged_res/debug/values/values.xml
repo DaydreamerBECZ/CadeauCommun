@@ -10,31 +10,44 @@
     <color name="title">#3F7A4C</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
-    <string name="app_name">CadeauCommun</string>
+    <string name="CONFIRMPASSWORD">C O N F I R M P A S S W O R D</string>
+    <string name="LOGIN">L O G I N</string>
+    <string name="PASSWORD">P A S S W O R D</string>
+    <string name="REGISTER">R E G I S T E R</string>
+    <string name="USERNAME">U S E R N A M E</string>
+    <string name="app_name">Cadeau Commun</string>
     <string name="apply">APPLY</string>
+    <string name="dateFormat">D D / M M / Y Y Y Y</string>
     <string name="eMailHint">e - m a i l</string>
+    <string name="eventBeginDate">S T A R T D A T E</string>
+    <string name="eventDescription">D E S C R I P T I O N</string>
+    <string name="eventEndDate">E N D D A T E</string>
+    <string name="eventTitle">T I T L E</string>
+    <string name="first_fragment_label">First Fragment</string>
     <string name="giftCost">Cost ($CAD)</string>
     <string name="giftDescription">Description</string>
     <string name="giftImage">Image Link (optional)</string>
     <string name="giftTitle">Title</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="invitedTextBox">Invited participants to your event.</string>
-    <string name="l_o_g_i_n">L O G I N</string>
     <string name="loginButtonText">LOGIN</string>
     <string name="loginInvite">Already a MAGIFT user ? Login !</string>
     <string name="mainTitleText">M A G I F T</string>
     <string name="makeGift">Make A Gift.</string>
     <string name="makeGiftSubtitle">Create a meaningful gift for a special occasion. All information is relative to the gift.</string>
-    <string name="p_a_s_s_w_o_r_d">P A S S W O R D</string>
+    <string name="next">Next</string>
     <string name="participantChoiceTextbox">Choose your participant(s):</string>
     <string name="passwordHint">p a s s w o r d</string>
-    <string name="r_e_g_i_s_t_e_r">R E G I S T E R</string>
+    <string name="previous">Previous</string>
     <string name="registerButtonText">Register</string>
     <string name="registerInvite">New to MAGIFT ? Join us !</string>
     <string name="registerTitleText">R E G I S T E R</string>
+    <string name="second_fragment_label">Second Fragment</string>
     <string name="subtitleText">Making event gifting EASY</string>
-    <string name="u_s_e_r_n_a_m_e">U S E R N A M E</string>
+    <string name="title_activity_ttttt">ttttt</string>
     <string name="usernameHint">u s e r n a m e</string>
-    <style name="Theme.CadeauCommun" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.CadeauCommun" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -47,4 +60,10 @@
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         
     </style>
+    <style name="Theme.CadeauCommun.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.CadeauCommun.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.CadeauCommun.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>

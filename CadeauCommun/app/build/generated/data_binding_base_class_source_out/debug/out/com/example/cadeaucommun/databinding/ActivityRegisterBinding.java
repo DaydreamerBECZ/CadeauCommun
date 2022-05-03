@@ -22,13 +22,28 @@ public final class ActivityRegisterBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText editTextTextEmailAddress;
+  public final EditText firstNameLbl;
 
   @NonNull
-  public final EditText editTextTextPassword;
+  public final TextView firstNameTextView;
 
   @NonNull
-  public final EditText editTextTextPersonName;
+  public final EditText lastNameLbl;
+
+  @NonNull
+  public final TextView lastNameTextView;
+
+  @NonNull
+  public final EditText passwordLbl;
+
+  @NonNull
+  public final EditText passwordLbl2;
+
+  @NonNull
+  public final TextView passwordTextView;
+
+  @NonNull
+  public final TextView passwordTextView2;
 
   @NonNull
   public final Button registerSubmit;
@@ -37,28 +52,31 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextView textView5;
 
   @NonNull
-  public final TextView textView6;
+  public final EditText usernameLbl;
 
   @NonNull
-  public final TextView textView7;
-
-  @NonNull
-  public final TextView textView8;
+  public final TextView usernameTextView;
 
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
-      @NonNull EditText editTextTextEmailAddress, @NonNull EditText editTextTextPassword,
-      @NonNull EditText editTextTextPersonName, @NonNull Button registerSubmit,
-      @NonNull TextView textView5, @NonNull TextView textView6, @NonNull TextView textView7,
-      @NonNull TextView textView8) {
+      @NonNull EditText firstNameLbl, @NonNull TextView firstNameTextView,
+      @NonNull EditText lastNameLbl, @NonNull TextView lastNameTextView,
+      @NonNull EditText passwordLbl, @NonNull EditText passwordLbl2,
+      @NonNull TextView passwordTextView, @NonNull TextView passwordTextView2,
+      @NonNull Button registerSubmit, @NonNull TextView textView5, @NonNull EditText usernameLbl,
+      @NonNull TextView usernameTextView) {
     this.rootView = rootView;
-    this.editTextTextEmailAddress = editTextTextEmailAddress;
-    this.editTextTextPassword = editTextTextPassword;
-    this.editTextTextPersonName = editTextTextPersonName;
+    this.firstNameLbl = firstNameLbl;
+    this.firstNameTextView = firstNameTextView;
+    this.lastNameLbl = lastNameLbl;
+    this.lastNameTextView = lastNameTextView;
+    this.passwordLbl = passwordLbl;
+    this.passwordLbl2 = passwordLbl2;
+    this.passwordTextView = passwordTextView;
+    this.passwordTextView2 = passwordTextView2;
     this.registerSubmit = registerSubmit;
     this.textView5 = textView5;
-    this.textView6 = textView6;
-    this.textView7 = textView7;
-    this.textView8 = textView8;
+    this.usernameLbl = usernameLbl;
+    this.usernameTextView = usernameTextView;
   }
 
   @Override
@@ -88,21 +106,51 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.editTextTextEmailAddress;
-      EditText editTextTextEmailAddress = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextEmailAddress == null) {
+      id = R.id.firstName_lbl;
+      EditText firstNameLbl = ViewBindings.findChildViewById(rootView, id);
+      if (firstNameLbl == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPassword;
-      EditText editTextTextPassword = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPassword == null) {
+      id = R.id.firstName_textView;
+      TextView firstNameTextView = ViewBindings.findChildViewById(rootView, id);
+      if (firstNameTextView == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName;
-      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName == null) {
+      id = R.id.lastName_lbl;
+      EditText lastNameLbl = ViewBindings.findChildViewById(rootView, id);
+      if (lastNameLbl == null) {
+        break missingId;
+      }
+
+      id = R.id.lastName_textView;
+      TextView lastNameTextView = ViewBindings.findChildViewById(rootView, id);
+      if (lastNameTextView == null) {
+        break missingId;
+      }
+
+      id = R.id.password_lbl;
+      EditText passwordLbl = ViewBindings.findChildViewById(rootView, id);
+      if (passwordLbl == null) {
+        break missingId;
+      }
+
+      id = R.id.password_lbl2;
+      EditText passwordLbl2 = ViewBindings.findChildViewById(rootView, id);
+      if (passwordLbl2 == null) {
+        break missingId;
+      }
+
+      id = R.id.password_textView;
+      TextView passwordTextView = ViewBindings.findChildViewById(rootView, id);
+      if (passwordTextView == null) {
+        break missingId;
+      }
+
+      id = R.id.password_textView2;
+      TextView passwordTextView2 = ViewBindings.findChildViewById(rootView, id);
+      if (passwordTextView2 == null) {
         break missingId;
       }
 
@@ -118,27 +166,22 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView6;
-      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
-      if (textView6 == null) {
+      id = R.id.username_lbl;
+      EditText usernameLbl = ViewBindings.findChildViewById(rootView, id);
+      if (usernameLbl == null) {
         break missingId;
       }
 
-      id = R.id.textView7;
-      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
-      if (textView7 == null) {
+      id = R.id.username_textView;
+      TextView usernameTextView = ViewBindings.findChildViewById(rootView, id);
+      if (usernameTextView == null) {
         break missingId;
       }
 
-      id = R.id.textView8;
-      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
-      if (textView8 == null) {
-        break missingId;
-      }
-
-      return new ActivityRegisterBinding((ConstraintLayout) rootView, editTextTextEmailAddress,
-          editTextTextPassword, editTextTextPersonName, registerSubmit, textView5, textView6,
-          textView7, textView8);
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, firstNameLbl,
+          firstNameTextView, lastNameLbl, lastNameTextView, passwordLbl, passwordLbl2,
+          passwordTextView, passwordTextView2, registerSubmit, textView5, usernameLbl,
+          usernameTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CadeauCommun</string>
+    <string name="app_name">Cadeau Commun</string>
     <string name="mainTitleText">M A G I F T</string>
     <string name="subtitleText">Making event gifting EASY</string>
     <string name="loginInvite">Already a MAGIFT user ? Login !</string>
@@ -26,7 +26,17 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="LOGIN">L O G I N</string>
+    <string name="REGISTER">R E G I S T E R</string>
+    <string name="USERNAME">U S E R N A M E</string>
+    <string name="PASSWORD">P A S S W O R D</string>
+    <string name="CONFIRMPASSWORD">C O N F I R M P A S S W O R D</string>
+    <string name="eventTitle">T I T L E</string>
+    <string name="eventDescription">D E S C R I P T I O N</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="eventBeginDate">S T A R T D A T E</string>
+    <string name="eventEndDate">E N D D A T E</string>
+    <string name="dateFormat">D D / M M / Y Y Y Y</string>
 </resources>

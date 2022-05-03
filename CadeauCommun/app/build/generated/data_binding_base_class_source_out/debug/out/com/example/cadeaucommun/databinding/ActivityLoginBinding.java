@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,39 +25,31 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final Button LoginButton;
 
   @NonNull
-  public final Button button2;
+  public final EditText firstNameLbl;
 
   @NonNull
-  public final Switch organizerSwitch;
+  public final TextView firstNameTextView;
 
   @NonNull
-  public final EditText passLog;
+  public final EditText passwordLbl;
 
   @NonNull
-  public final TextView textView10;
+  public final TextView passwordTextView;
 
   @NonNull
   public final TextView textView5;
 
-  @NonNull
-  public final TextView textView9;
-
-  @NonNull
-  public final EditText userLog;
-
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button LoginButton,
-      @NonNull Button button2, @NonNull Switch organizerSwitch, @NonNull EditText passLog,
-      @NonNull TextView textView10, @NonNull TextView textView5, @NonNull TextView textView9,
-      @NonNull EditText userLog) {
+      @NonNull EditText firstNameLbl, @NonNull TextView firstNameTextView,
+      @NonNull EditText passwordLbl, @NonNull TextView passwordTextView,
+      @NonNull TextView textView5) {
     this.rootView = rootView;
     this.LoginButton = LoginButton;
-    this.button2 = button2;
-    this.organizerSwitch = organizerSwitch;
-    this.passLog = passLog;
-    this.textView10 = textView10;
+    this.firstNameLbl = firstNameLbl;
+    this.firstNameTextView = firstNameTextView;
+    this.passwordLbl = passwordLbl;
+    this.passwordTextView = passwordTextView;
     this.textView5 = textView5;
-    this.textView9 = textView9;
-    this.userLog = userLog;
   }
 
   @Override
@@ -94,27 +85,27 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
+      id = R.id.firstName_lbl;
+      EditText firstNameLbl = ViewBindings.findChildViewById(rootView, id);
+      if (firstNameLbl == null) {
         break missingId;
       }
 
-      id = R.id.organizerSwitch;
-      Switch organizerSwitch = ViewBindings.findChildViewById(rootView, id);
-      if (organizerSwitch == null) {
+      id = R.id.firstName_textView;
+      TextView firstNameTextView = ViewBindings.findChildViewById(rootView, id);
+      if (firstNameTextView == null) {
         break missingId;
       }
 
-      id = R.id.passLog;
-      EditText passLog = ViewBindings.findChildViewById(rootView, id);
-      if (passLog == null) {
+      id = R.id.password_lbl;
+      EditText passwordLbl = ViewBindings.findChildViewById(rootView, id);
+      if (passwordLbl == null) {
         break missingId;
       }
 
-      id = R.id.textView10;
-      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
-      if (textView10 == null) {
+      id = R.id.password_textView;
+      TextView passwordTextView = ViewBindings.findChildViewById(rootView, id);
+      if (passwordTextView == null) {
         break missingId;
       }
 
@@ -124,20 +115,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView9;
-      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
-      if (textView9 == null) {
-        break missingId;
-      }
-
-      id = R.id.userLog;
-      EditText userLog = ViewBindings.findChildViewById(rootView, id);
-      if (userLog == null) {
-        break missingId;
-      }
-
-      return new ActivityLoginBinding((ConstraintLayout) rootView, LoginButton, button2,
-          organizerSwitch, passLog, textView10, textView5, textView9, userLog);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, LoginButton, firstNameLbl,
+          firstNameTextView, passwordLbl, passwordTextView, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

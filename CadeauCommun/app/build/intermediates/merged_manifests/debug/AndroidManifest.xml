@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.CadeauCommun" >
         <activity
+            android:name="com.example.cadeaucommun.FEL.Activity.newEventActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.cadeaucommun.FEL.Activity.loginActivity"
             android:exported="false" />
         <activity
@@ -27,7 +30,13 @@
             android:exported="false" />
         <activity
             android:name="com.example.cadeaucommun.FEL.Activity.eventManagerActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.example.cadeaucommun.FEL.Activity.giftingActivity"
             android:exported="false" />
@@ -36,12 +45,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.cadeaucommun.FEL.Activity.StartUpActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false" >
         </activity>
 
         <provider

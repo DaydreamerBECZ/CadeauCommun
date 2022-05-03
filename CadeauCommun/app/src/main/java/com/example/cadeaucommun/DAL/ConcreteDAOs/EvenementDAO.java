@@ -43,7 +43,7 @@ public class EvenementDAO implements IDAO<Evenement> {
         String sql = "SELECT * FROM evenement WHERE id = " + id;
         Cursor cursor = db.rawQuery(sql, null);
         Evenement evenement = null;
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMM-yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         if(cursor !=null && cursor.getCount() > 0) {
             cursor.moveToFirst();
             evenement = new Evenement();
@@ -58,12 +58,12 @@ public class EvenementDAO implements IDAO<Evenement> {
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
-    public List<Evenement> findMany(int id) {
+    public List<Evenement> findAll() {
         SQLiteDatabase db = this.myHelper.getReadableDatabase();
         String sql = "SELECT * FROM evenement";
         Cursor cursor = db.rawQuery(sql, null);
         List<Evenement> evenements = null;
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMM-yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         if(cursor !=null && cursor.getCount() > 0) {
             evenements = new ArrayList();
             cursor.moveToFirst();

@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.cadeaucommun.R;
@@ -21,21 +22,21 @@ public final class ActivityEventManagerBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final AppCompatButton eventButton;
+  public final TextView allEventsLbl;
 
   @NonNull
-  public final AppCompatButton eventCreateButton;
+  public final RecyclerView allEventsRecyclerView;
 
   @NonNull
-  public final TextView textView12;
+  public final AppCompatButton createEventBtn;
 
   private ActivityEventManagerBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppCompatButton eventButton, @NonNull AppCompatButton eventCreateButton,
-      @NonNull TextView textView12) {
+      @NonNull TextView allEventsLbl, @NonNull RecyclerView allEventsRecyclerView,
+      @NonNull AppCompatButton createEventBtn) {
     this.rootView = rootView;
-    this.eventButton = eventButton;
-    this.eventCreateButton = eventCreateButton;
-    this.textView12 = textView12;
+    this.allEventsLbl = allEventsLbl;
+    this.allEventsRecyclerView = allEventsRecyclerView;
+    this.createEventBtn = createEventBtn;
   }
 
   @Override
@@ -65,26 +66,26 @@ public final class ActivityEventManagerBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.eventButton;
-      AppCompatButton eventButton = ViewBindings.findChildViewById(rootView, id);
-      if (eventButton == null) {
+      id = R.id.allEvents_lbl;
+      TextView allEventsLbl = ViewBindings.findChildViewById(rootView, id);
+      if (allEventsLbl == null) {
         break missingId;
       }
 
-      id = R.id.eventCreateButton;
-      AppCompatButton eventCreateButton = ViewBindings.findChildViewById(rootView, id);
-      if (eventCreateButton == null) {
+      id = R.id.allEvents_recyclerView;
+      RecyclerView allEventsRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (allEventsRecyclerView == null) {
         break missingId;
       }
 
-      id = R.id.textView12;
-      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
-      if (textView12 == null) {
+      id = R.id.createEvent_btn;
+      AppCompatButton createEventBtn = ViewBindings.findChildViewById(rootView, id);
+      if (createEventBtn == null) {
         break missingId;
       }
 
-      return new ActivityEventManagerBinding((ConstraintLayout) rootView, eventButton,
-          eventCreateButton, textView12);
+      return new ActivityEventManagerBinding((ConstraintLayout) rootView, allEventsLbl,
+          allEventsRecyclerView, createEventBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
