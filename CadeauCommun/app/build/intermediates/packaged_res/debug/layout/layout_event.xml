@@ -28,6 +28,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="title to be."
+                android:textSize="20sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,22 +43,39 @@
                 app:layout_constraintTop_toBottomOf="@+id/titleView_lbl" />
 
             <TextView
-                android:id="@+id/startDateView_lbl"
+                android:id="@+id/startsTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="startDate to be."
+                android:text="Starts:"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/descriptionView_lbl" />
+
+            <TextView
+                android:id="@+id/startDateView_lbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="startDate to be."
+                app:layout_constraintStart_toEndOf="@+id/startsTextView"
+                app:layout_constraintTop_toTopOf="@+id/startsTextView" />
 
             <TextView
                 android:id="@+id/endDateView_lbl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:text="endDate to be."
+                app:layout_constraintStart_toStartOf="@+id/startDateView_lbl"
+                app:layout_constraintTop_toTopOf="@+id/endsTextView" />
+
+            <TextView
+                android:id="@+id/endsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Ends:"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/startDateView_lbl" />
+                app:layout_constraintTop_toBottomOf="@+id/startsTextView" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

@@ -2754,6 +2754,7 @@ id endDateView_lbl
 id endDate_textView
 id endToStart
 id end_padder
+id endsTextView
 id enterAlways
 id enterAlwaysCollapsed
 id eventDesc_lbl
@@ -2944,6 +2945,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id refreshLayout1
 id registerSubmit
 id reverseSawtooth
 id right
@@ -3012,6 +3014,7 @@ id startDate_textView
 id startHorizontal
 id startToEnd
 id startVertical
+id startsTextView
 id staticLayout
 id staticPostLayout
 id status_bar_latest_event_content

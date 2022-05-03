@@ -11,7 +11,7 @@
 9-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:5:5-42:19
+11-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:5:5-41:19
 12        android:allowBackup="true"
 12-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -48,40 +48,40 @@
 30            android:exported="false" />
 30-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:21:13-37
 31        <activity
-31-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:22:9-30:20
+31-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:22:9-25:20
 32            android:name="com.example.cadeaucommun.FEL.Activity.eventManagerActivity"
 32-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:23:13-62
-33            android:exported="true" >
-33-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:24:13-36
-34            <intent-filter>
-34-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:25:13-29:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:26:17-69
-35-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:26:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:28:17-77
-37-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:28:27-74
-38            </intent-filter>
-39        </activity>
-40        <activity
-40-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:31:9-33:40
-41            android:name="com.example.cadeaucommun.FEL.Activity.giftingActivity"
-41-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:32:13-57
-42            android:exported="false" />
-42-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:33:13-37
-43        <activity
-43-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:34:9-36:40
-44            android:name="com.example.cadeaucommun.FEL.Activity.RegisterActivity"
-44-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:35:13-58
-45            android:exported="false" />
-45-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:36:13-37
-46        <activity
-46-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:37:9-41:20
-47            android:name="com.example.cadeaucommun.FEL.Activity.StartUpActivity"
-47-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:38:13-57
-48            android:exported="false" >
-48-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:39:13-37
+33            android:exported="false" >
+33-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:24:13-37
+34        </activity>
+35        <activity
+35-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:26:9-28:40
+36            android:name="com.example.cadeaucommun.FEL.Activity.giftingActivity"
+36-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:27:13-57
+37            android:exported="false" />
+37-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:28:13-37
+38        <activity
+38-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:29:9-31:40
+39            android:name="com.example.cadeaucommun.FEL.Activity.RegisterActivity"
+39-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:30:13-58
+40            android:exported="false" />
+40-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:31:13-37
+41        <activity
+41-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:32:9-40:20
+42            android:name="com.example.cadeaucommun.FEL.Activity.StartUpActivity"
+42-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:33:13-57
+43            android:exported="true" >
+43-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:34:13-36
+44            <intent-filter>
+44-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:35:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:36:17-69
+45-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:38:17-77
+47-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:38:27-74
+48            </intent-filter>
 49        </activity>
 50
 51        <provider

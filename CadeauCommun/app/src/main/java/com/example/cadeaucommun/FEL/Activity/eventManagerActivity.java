@@ -4,6 +4,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
 import android.os.Build;
@@ -22,6 +23,7 @@ public class eventManagerActivity extends AppCompatActivity {
     EventAdapter adapter;
     Button eventCreationButton;
     EvenementDAO dao = new EvenementDAO(this);
+    SwipeRefreshLayout swipeRefreshLayout;
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
@@ -29,6 +31,7 @@ public class eventManagerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_manager);
         events = findViewById(R.id.allEvents_recyclerView);
+        swipeRefreshLayout = findViewById(R.id.refreshLayout1);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         events.setLayoutManager(layoutManager);
         adapter = new EventAdapter(dao.findAll());
@@ -39,6 +42,15 @@ public class eventManagerActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+            }
+        });
+
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                adapter = new EventAdapter(dao.findAll());
+                adapter.notifyDataSetChanged();
+                swipeRefreshLayout.setRefreshing(false);
             }
         });
     }

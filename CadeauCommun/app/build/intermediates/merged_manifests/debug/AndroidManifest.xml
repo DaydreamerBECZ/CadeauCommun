@@ -30,12 +30,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.cadeaucommun.FEL.Activity.eventManagerActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false" >
         </activity>
         <activity
             android:name="com.example.cadeaucommun.FEL.Activity.giftingActivity"
@@ -45,7 +40,12 @@
             android:exported="false" />
         <activity
             android:name="com.example.cadeaucommun.FEL.Activity.StartUpActivity"
-            android:exported="false" >
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <provider

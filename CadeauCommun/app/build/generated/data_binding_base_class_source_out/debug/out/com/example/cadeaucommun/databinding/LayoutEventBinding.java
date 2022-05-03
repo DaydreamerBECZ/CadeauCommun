@@ -30,19 +30,28 @@ public final class LayoutEventBinding implements ViewBinding {
   public final TextView endDateViewLbl;
 
   @NonNull
+  public final TextView endsTextView;
+
+  @NonNull
   public final TextView startDateViewLbl;
+
+  @NonNull
+  public final TextView startsTextView;
 
   @NonNull
   public final TextView titleViewLbl;
 
   private LayoutEventBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
       @NonNull TextView descriptionViewLbl, @NonNull TextView endDateViewLbl,
-      @NonNull TextView startDateViewLbl, @NonNull TextView titleViewLbl) {
+      @NonNull TextView endsTextView, @NonNull TextView startDateViewLbl,
+      @NonNull TextView startsTextView, @NonNull TextView titleViewLbl) {
     this.rootView = rootView;
     this.cardView = cardView;
     this.descriptionViewLbl = descriptionViewLbl;
     this.endDateViewLbl = endDateViewLbl;
+    this.endsTextView = endsTextView;
     this.startDateViewLbl = startDateViewLbl;
+    this.startsTextView = startsTextView;
     this.titleViewLbl = titleViewLbl;
   }
 
@@ -91,9 +100,21 @@ public final class LayoutEventBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.endsTextView;
+      TextView endsTextView = ViewBindings.findChildViewById(rootView, id);
+      if (endsTextView == null) {
+        break missingId;
+      }
+
       id = R.id.startDateView_lbl;
       TextView startDateViewLbl = ViewBindings.findChildViewById(rootView, id);
       if (startDateViewLbl == null) {
+        break missingId;
+      }
+
+      id = R.id.startsTextView;
+      TextView startsTextView = ViewBindings.findChildViewById(rootView, id);
+      if (startsTextView == null) {
         break missingId;
       }
 
@@ -104,7 +125,7 @@ public final class LayoutEventBinding implements ViewBinding {
       }
 
       return new LayoutEventBinding((ConstraintLayout) rootView, cardView, descriptionViewLbl,
-          endDateViewLbl, startDateViewLbl, titleViewLbl);
+          endDateViewLbl, endsTextView, startDateViewLbl, startsTextView, titleViewLbl);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

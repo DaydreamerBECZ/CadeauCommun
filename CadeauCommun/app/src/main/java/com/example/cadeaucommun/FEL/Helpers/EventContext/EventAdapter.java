@@ -1,12 +1,16 @@
 package com.example.cadeaucommun.FEL.Helpers.EventContext;
 
+import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.cadeaucommun.BLL.Model.Evenement;
 import com.example.cadeaucommun.R;
+
+import java.time.LocalDate;
 import java.util.List;
 
 public class EventAdapter extends RecyclerView.Adapter<EventsViewHolder> {
@@ -21,6 +25,10 @@ public class EventAdapter extends RecyclerView.Adapter<EventsViewHolder> {
     public EventsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.layout_event, parent, false);
+        if(evenements.size() <= 0){
+            evenements.add(new Evenement("Placeholder event", "Il n'y a aucun évènement afficher présentement.", null, null));
+            notifyDataSetChanged();
+        }
         return new EventsViewHolder(view);
     }
 
@@ -36,6 +44,11 @@ public class EventAdapter extends RecyclerView.Adapter<EventsViewHolder> {
 
     @Override
     public int getItemCount() {
-        return evenements.size();
+        try {
+            return evenements.size();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return 0;
+        }
     }
 }

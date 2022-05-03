@@ -26,6 +26,7 @@ id createEvent_btn
 id descriptionView_lbl
 id endDateView_lbl
 id endDate_textView
+id endsTextView
 id eventDesc_lbl
 id eventDesc_textView
 id eventEndDate_lbl
@@ -51,10 +52,12 @@ id password_lbl
 id password_lbl2
 id password_textView
 id password_textView2
+id refreshLayout1
 id registerSubmit
 id selectedParticipantsListView
 id startDateView_lbl
 id startDate_textView
+id startsTextView
 id submitEvent_btn
 id textView
 id textView11

@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.cadeaucommun.R;
@@ -30,13 +31,17 @@ public final class ActivityEventManagerBinding implements ViewBinding {
   @NonNull
   public final AppCompatButton createEventBtn;
 
+  @NonNull
+  public final SwipeRefreshLayout refreshLayout1;
+
   private ActivityEventManagerBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView allEventsLbl, @NonNull RecyclerView allEventsRecyclerView,
-      @NonNull AppCompatButton createEventBtn) {
+      @NonNull AppCompatButton createEventBtn, @NonNull SwipeRefreshLayout refreshLayout1) {
     this.rootView = rootView;
     this.allEventsLbl = allEventsLbl;
     this.allEventsRecyclerView = allEventsRecyclerView;
     this.createEventBtn = createEventBtn;
+    this.refreshLayout1 = refreshLayout1;
   }
 
   @Override
@@ -84,8 +89,14 @@ public final class ActivityEventManagerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.refreshLayout1;
+      SwipeRefreshLayout refreshLayout1 = ViewBindings.findChildViewById(rootView, id);
+      if (refreshLayout1 == null) {
+        break missingId;
+      }
+
       return new ActivityEventManagerBinding((ConstraintLayout) rootView, allEventsLbl,
-          allEventsRecyclerView, createEventBtn);
+          allEventsRecyclerView, createEventBtn, refreshLayout1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

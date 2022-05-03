@@ -42,6 +42,8 @@ public class newEventActivity extends AppCompatActivity {
         calendarView.setVisibility(View.INVISIBLE);
     }
 
+
+
     public void showStartCalendar(View view) {
         this.calendarView.bringToFront();
         this.calendarView.setVisibility(View.VISIBLE);
@@ -87,9 +89,6 @@ public class newEventActivity extends AppCompatActivity {
 
         LocalDate start = LocalDate.parse(this.startDate.getText().toString(),formatter);
         LocalDate end = LocalDate.parse(this.endDate.getText().toString(),formatter);
-
-//        if(start.getMonthValue() < 10)
-//            start.format();
 
         Evenement evenement = new Evenement();
         evenement.setTitle(this.eventTitle.getText().toString());

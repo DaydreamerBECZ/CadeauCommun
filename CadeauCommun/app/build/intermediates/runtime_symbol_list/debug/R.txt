@@ -2753,6 +2753,7 @@ int id endDateView_lbl 0x7f080227
 int id endDate_textView 0x7f080219
 int id endToStart 0x7f0800bd
 int id end_padder 0x7f0800be
+int id endsTextView 0x7f08022a
 int id enterAlways 0x7f0800bf
 int id enterAlwaysCollapsed 0x7f0800c0
 int id eventDesc_lbl 0x7f08021a
@@ -2943,6 +2944,7 @@ int id progress_horizontal 0x7f080176
 int id radio 0x7f080177
 int id ratio 0x7f080178
 int id rectangles 0x7f080179
+int id refreshLayout1 0x7f08022c
 int id registerSubmit 0x7f08017a
 int id reverseSawtooth 0x7f08017b
 int id right 0x7f08017c
@@ -3011,6 +3013,7 @@ int id startDate_textView 0x7f08021f
 int id startHorizontal 0x7f0801b9
 int id startToEnd 0x7f0801ba
 int id startVertical 0x7f0801bb
+int id startsTextView 0x7f08022b
 int id staticLayout 0x7f0801bc
 int id staticPostLayout 0x7f0801bd
 int id status_bar_latest_event_content 0x7f0801be
