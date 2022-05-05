@@ -1,4 +1,4 @@
-package com.example.cadeaucommun.FEL.Helpers.EventContext;
+package com.example.cadeaucommun.FEL.Helpers.RecycleViewHelper;
 
 import android.view.View;
 import android.widget.TextView;

@@ -1,16 +1,13 @@
-package com.example.cadeaucommun.FEL.Helpers.EventContext;
+package com.example.cadeaucommun.FEL.Helpers.RecycleViewHelper;
 
-import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.cadeaucommun.BLL.Model.Evenement;
 import com.example.cadeaucommun.R;
 
-import java.time.LocalDate;
 import java.util.List;
 
 public class EventAdapter extends RecyclerView.Adapter<EventsViewHolder> {

@@ -6,118 +6,118 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="25"
-8-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml
+8-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml
+9-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:5:5-41:19
+11-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:5:5-41:19
 12        android:allowBackup="true"
-12-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Mark\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\zacha\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:7:9-43
+16-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:8:9-41
+17-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:9:9-54
+18-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:10:9-35
+19-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/Theme.CadeauCommun" >
-21-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:11:9-50
+21-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:11:9-50
 22        <activity
-22-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:12:9-14:39
+22-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:12:9-14:39
 23            android:name="com.example.cadeaucommun.FEL.Activity.newEventActivity"
-23-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:13:13-58
+23-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:13:13-58
 24            android:exported="false" />
-24-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:14:13-37
+24-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:14:13-37
 25        <activity
-25-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:16:9-18:40
+25-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:16:9-18:40
 26            android:name="com.example.cadeaucommun.FEL.Activity.loginActivity"
-26-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:17:13-55
+26-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:17:13-55
 27            android:exported="false" />
-27-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:18:13-37
+27-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:18:13-37
 28        <activity
-28-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:19:9-21:40
+28-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:19:9-21:40
 29            android:name="com.example.cadeaucommun.FEL.Activity.participantSelectionActivity"
-29-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:20:13-70
+29-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:20:13-70
 30            android:exported="false" />
-30-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:21:13-37
+30-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:21:13-37
 31        <activity
-31-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:22:9-25:20
+31-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:22:9-25:20
 32            android:name="com.example.cadeaucommun.FEL.Activity.eventManagerActivity"
-32-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:23:13-62
+32-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:23:13-62
 33            android:exported="false" >
-33-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:24:13-37
+33-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:24:13-37
 34        </activity>
 35        <activity
-35-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:26:9-28:40
+35-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:26:9-28:40
 36            android:name="com.example.cadeaucommun.FEL.Activity.giftingActivity"
-36-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:27:13-57
+36-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:27:13-57
 37            android:exported="false" />
-37-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:28:13-37
+37-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:28:13-37
 38        <activity
-38-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:29:9-31:40
+38-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:29:9-31:40
 39            android:name="com.example.cadeaucommun.FEL.Activity.RegisterActivity"
-39-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:30:13-58
+39-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:30:13-58
 40            android:exported="false" />
-40-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:31:13-37
+40-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:31:13-37
 41        <activity
-41-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:32:9-40:20
+41-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:32:9-40:20
 42            android:name="com.example.cadeaucommun.FEL.Activity.StartUpActivity"
-42-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:33:13-57
+42-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:33:13-57
 43            android:exported="true" >
-43-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:34:13-36
+43-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:34:13-36
 44            <intent-filter>
-44-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:35:13-39:29
+44-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:35:13-39:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:36:17-69
-45-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:36:25-66
+45-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:36:17-69
+45-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:36:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:38:17-77
-47-->C:\Users\Mark\Desktop\School\Hiv2022\Mobile\Projet-A\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:38:27-74
+47-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:38:17-77
+47-->C:\Users\zacha\OneDrive\Bureau\Note_de_cours\Session_4\Android\CadeauCommun\CadeauCommun\app\src\main\AndroidManifest.xml:38:27-74
 48            </intent-filter>
 49        </activity>
 50
 51        <provider
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 53            android:authorities="com.example.cadeaucommun.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 55            <meta-data
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\8c082c95bd529051ea549ace80b5e003\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zacha\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zacha\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mark\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zacha\.gradle\caches\transforms-3\1417e026bf9408eea127bab3316820d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 61        </provider>
 62
 63        <uses-library
-63-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+63-->[androidx.window:window:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 64            android:name="androidx.window.extensions"
-64-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+64-->[androidx.window:window:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 65            android:required="false" />
-65-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+65-->[androidx.window:window:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 66        <uses-library
-66-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+66-->[androidx.window:window:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 67            android:name="androidx.window.sidecar"
-67-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+67-->[androidx.window:window:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 68            android:required="false" />
-68-->[androidx.window:window:1.0.0] C:\Users\Mark\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+68-->[androidx.window:window:1.0.0] C:\Users\zacha\.gradle\caches\transforms-3\ed87a45bb076383e6b3450ed347397ef\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 69    </application>
 70
 71</manifest>

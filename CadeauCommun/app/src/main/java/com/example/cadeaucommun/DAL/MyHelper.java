@@ -36,7 +36,8 @@ public class MyHelper extends SQLiteOpenHelper {
                 "title TEXT, " +
                 "description TEXT, " +
                 "beginDate TEXT," +
-                "endDate TEXT)"
+                "endDate TEXT,"  +
+                "FOREIGN KEY (OrganizerID) REFERENCES participant(id))"
         );
 
         db.execSQL("CREATE TABLE invitation(" +

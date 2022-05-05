@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.icu.util.LocaleData;
 import android.os.Build;
 import android.os.Bundle;
@@ -28,6 +29,7 @@ import java.util.concurrent.Executors;
 public class newEventActivity extends AppCompatActivity {
     TextView eventTitle, eventDescription, startDate, endDate;
     CalendarView calendarView;
+    int counter = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,19 +47,35 @@ public class newEventActivity extends AppCompatActivity {
 
 
     public void showStartCalendar(View view) {
-        this.calendarView.bringToFront();
-        this.calendarView.setVisibility(View.VISIBLE);
-        this.startDate.callOnClick();
+        if (counter%2==0) {
+            this.calendarView.bringToFront();
+            this.calendarView.setVisibility(View.VISIBLE);
+            this.startDate.callOnClick();
+            counter++;
+        }
+        else
+        {
+            this.calendarView.setVisibility(View.INVISIBLE);
+            counter=0;
+        }
     }
 
     public void showEndCalendar(View view) {
-        this.calendarView.bringToFront();
-        this.calendarView.setVisibility(View.VISIBLE);
-        this.endDate.callOnClick();
+        if (counter%2==0) {
+            this.calendarView.bringToFront();
+            this.calendarView.setVisibility(View.VISIBLE);
+            this.endDate.callOnClick();
+            counter++;
+        }
+        else
+        {
+            this.calendarView.setVisibility(View.INVISIBLE);
+            counter=0;
+        }
     }
 
     public void hideCalendar(View view) {
-        if(this.calendarView.getVisibility() == View.VISIBLE)
+        if (this.calendarView.getVisibility() == View.VISIBLE)
             this.calendarView.setVisibility(View.INVISIBLE);
     }
 
@@ -98,5 +116,6 @@ public class newEventActivity extends AppCompatActivity {
 
         dao.add(evenement);
         Toast.makeText(this,"Event was sucessfully created.", Toast.LENGTH_SHORT).show();
+
     }
 }

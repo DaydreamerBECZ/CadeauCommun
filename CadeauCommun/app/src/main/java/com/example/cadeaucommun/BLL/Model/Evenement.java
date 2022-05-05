@@ -11,6 +11,7 @@ public class Evenement {
     private String description;
     private LocalDate beginDate;
     private LocalDate endDate;
+    private int organizerID;
 
     public Evenement(String title, String description, LocalDate beginDate, LocalDate endDate) {
         this.id = auto_id++;

@@ -11,10 +11,9 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 
 import com.example.cadeaucommun.DAL.ConcreteDAOs.EvenementDAO;
-import com.example.cadeaucommun.FEL.Helpers.EventContext.EventAdapter;
+import com.example.cadeaucommun.FEL.Helpers.RecycleViewHelper.EventAdapter;
 import com.example.cadeaucommun.R;
 
 public class eventManagerActivity extends AppCompatActivity {
@@ -41,7 +40,7 @@ public class eventManagerActivity extends AppCompatActivity {
         events.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+               // Intent edit = new Intent(this, )
             }
         });
 
